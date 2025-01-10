@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/table.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css" />
+    <link rel="stylesheet" href="./assets/css/student-create.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200..1000&family=Nunito:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <a href="#" class="logo"> School </a>
+
+      <div class="sidebar-nav">
+        <div class="navbar">
+          <p class="header">Menu</p>
+          <ul>
+            <li class="active">
+              <a href="#">
+                <i class="fa-solid fa-book"></i>
+                <p>Lessons</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <p>Exams</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-chalkboard-teacher"></i>
+                <p>Teachers</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-user-graduate"></i>
+                <p>Students</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="date">
+          <i class="fa-solid fa-calendar-days"></i>
+          <p>1/9/2025 2:45 PM</p>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="student-create">
+        <div class="header">
+          <h3>Add New Student</h3>
+        </div>
+
+        <div class="student container">
+          <form action="#" method="POST">
+            <div class="form-con">
+              <div class="profile-img">
+                <div class="image">
+                  <img
+                    src="/assets/images/user-profil.png"
+                    alt="User Profile Image"
+                    class="main-image"
+                  />
+                  <div class="photo-overlay">
+                    <img src="/assets/images/camera.svg" alt="Camera Icon" />
+                  </div>
+                </div>
+                <div class="img-file">
+                  <label for="image-file" class="upload-label"
+                    >Upload Image</label
+                  >
+                  <input id="image-file" type="file" accept="image/*" hidden />
+                </div>
+              </div>
+
+              <div class="data">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Name"
+                    required
+                  />
+                  <span></span>
+                </div>
+                <div class="form-group">
+                  <label for="surname">Surname</label>
+                  <input
+                    type="text"
+                    id="surname"
+                    name="surname"
+                    placeholder="Surname"
+                    required
+                  />
+                  <span></span>
+                </div>
+                <div class="form-group">
+                  <label for="class">Class</label>
+                  <input
+                    type="text"
+                    id="class"
+                    name="class"
+                    placeholder="Class"
+                    required
+                  />
+                  <span></span>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <footer>Developed By: Tamerlan Aliyev</footer>
+    </main>
+
+    <script src="./assets/js/table.js"></script>
+    <script src="./assets/js/student-create.js"></script>
+  </body>
+</html>
