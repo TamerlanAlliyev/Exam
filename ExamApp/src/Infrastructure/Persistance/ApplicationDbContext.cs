@@ -29,5 +29,4 @@ public class ApplicationDbContext: DbContext
     public DbSet<SchoolClass> SchoolClasses => Set<SchoolClass>();
     public DbSet<Student> Students => Set<Student>();
     public DbSet<Lesson> Lessons => Set<Lesson>();
-
 }

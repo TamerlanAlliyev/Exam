@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ExamApp.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250110170424_SchoolClasses")]
-    partial class SchoolClasses
+    [Migration("20250110214249_Teachers")]
+    partial class Teachers
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,18 +32,15 @@ namespace ExamApp.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<decimal>("Class")
+                        .HasColumnType("numeric(2, 0)");
 
                     b.Property<int>("TeacherId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TeacherId");
-
-                    b.ToTable("SchoolClasses");
+                    b.ToTable("SchoolClass");
                 });
 
             modelBuilder.Entity("Domain.Entities.Teacher", b =>
@@ -59,13 +56,13 @@ namespace ExamApp.Infrastructure.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("varchar");
 
-                    b.Property<int>("Number")
-                        .HasPrecision(5)
-                        .HasColumnType("int");
+                    b.Property<decimal>("Number")
+                        .HasColumnType("numeric(5, 0)");
 
                     b.Property<string>("Specialization")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar");
 
                     b.Property<string>("Surname")
                         .IsRequired()
@@ -77,6 +74,28 @@ namespace ExamApp.Infrastructure.Migrations
                     b.ToTable("Teachers");
                 });
 
+            modelBuilder.Entity("ExamApp.Domain.Entities.Lesson", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("LessonCode")
+                        .IsRequired()
+                        .HasColumnType("char(3)");
+
+                    b.Property<string>("LessonName")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Lesson");
+                });
+
             modelBuilder.Entity("ExamApp.Domain.Entities.Student", b =>
                 {
                     b.Property<int>("Id")
@@ -87,56 +106,23 @@ namespace ExamApp.Infrastructure.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar");
 
-                    b.Property<int>("Number")
-                        .HasPrecision(5)
-                        .HasColumnType("int");
+                    b.Property<decimal>("Number")
+                        .HasColumnType("numeric(5, 0)");
 
                     b.Property<int>("SchoolClassId")
                         .HasColumnType("int");
 
                     b.Property<string>("Surname")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("SchoolClassId");
-
                     b.ToTable("Student");
-                });
-
-            modelBuilder.Entity("Domain.Entities.SchoolClass", b =>
-                {
-                    b.HasOne("Domain.Entities.Teacher", "Teacher")
-                        .WithMany("Classes")
-                        .HasForeignKey("TeacherId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Teacher");
-                });
-
-            modelBuilder.Entity("ExamApp.Domain.Entities.Student", b =>
-                {
-                    b.HasOne("Domain.Entities.SchoolClass", "SchoolClass")
-                        .WithMany("Students")
-                        .HasForeignKey("SchoolClassId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("SchoolClass");
-                });
-
-            modelBuilder.Entity("Domain.Entities.SchoolClass", b =>
-                {
-                    b.Navigation("Students");
-                });
-
-            modelBuilder.Entity("Domain.Entities.Teacher", b =>
-                {
-                    b.Navigation("Classes");
                 });
 #pragma warning restore 612, 618
         }

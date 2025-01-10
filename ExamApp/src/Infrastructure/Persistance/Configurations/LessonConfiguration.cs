@@ -25,11 +25,14 @@ public class LessonConfiguration : BaseConfiguration<Lesson>
 
         builder.HasOne(x => x.Teacher)
                .WithMany(x => x.Lessons)
-               .HasForeignKey(x => x.TeacherId);
+               .HasForeignKey(x => x.TeacherId)
+               .OnDelete(DeleteBehavior.NoAction);
 
         builder.HasOne(x => x.SchoolClass)
                .WithMany(x => x.Lessons)
-               .HasForeignKey(x => x.SchoolClassId);
+               .HasForeignKey(x => x.SchoolClassId)
+               .OnDelete(DeleteBehavior.NoAction);
+
 
         base.Configure(builder);
     }

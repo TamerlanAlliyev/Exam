@@ -18,13 +18,13 @@ public class SchoolClassConfiguration:BaseConfiguration<SchoolClass>
                .HasColumnType("numeric(2, 0)")
                .IsRequired(true);
 
-        builder.HasMany(x=>x.Students)
-               .WithOne(x=>x.SchoolClass)
-               .HasForeignKey(x=>x.SchoolClassId);
+        builder.HasMany(x => x.Students)
+               .WithOne(x => x.SchoolClass)
+               .HasForeignKey(x => x.SchoolClassId);
 
-        builder.HasOne(x=>x.Teacher)
-               .WithMany(x=>x.Classes)
-               .HasForeignKey(x=>x.TeacherId);
+        builder.HasOne(x => x.Teacher)
+               .WithMany(x => x.Classes)
+               .HasForeignKey(x => x.TeacherId);
 
         base.Configure(builder);
     }

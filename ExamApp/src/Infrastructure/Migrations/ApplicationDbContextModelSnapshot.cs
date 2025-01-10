@@ -152,13 +152,13 @@ namespace ExamApp.Infrastructure.Migrations
                     b.HasOne("Domain.Entities.SchoolClass", "SchoolClass")
                         .WithMany("Lessons")
                         .HasForeignKey("SchoolClassId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("Domain.Entities.Teacher", "Teacher")
                         .WithMany("Lessons")
                         .HasForeignKey("TeacherId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.Navigation("SchoolClass");

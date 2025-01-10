@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ExamApp.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250110180142_Students")]
-    partial class Students
+    [Migration("20250110214707_Lessons")]
+    partial class Lessons
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -76,6 +76,38 @@ namespace ExamApp.Infrastructure.Migrations
                     b.ToTable("Teachers");
                 });
 
+            modelBuilder.Entity("ExamApp.Domain.Entities.Lesson", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("LessonCode")
+                        .IsRequired()
+                        .HasColumnType("char(3)");
+
+                    b.Property<string>("LessonName")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar");
+
+                    b.Property<int>("SchoolClassId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TeacherId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SchoolClassId");
+
+                    b.HasIndex("TeacherId");
+
+                    b.ToTable("Lessons");
+                });
+
             modelBuilder.Entity("ExamApp.Domain.Entities.Student", b =>
                 {
                     b.Property<int>("Id")
@@ -118,6 +150,25 @@ namespace ExamApp.Infrastructure.Migrations
                     b.Navigation("Teacher");
                 });
 
+            modelBuilder.Entity("ExamApp.Domain.Entities.Lesson", b =>
+                {
+                    b.HasOne("Domain.Entities.SchoolClass", "SchoolClass")
+                        .WithMany("Lessons")
+                        .HasForeignKey("SchoolClassId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Teacher", "Teacher")
+                        .WithMany("Lessons")
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("SchoolClass");
+
+                    b.Navigation("Teacher");
+                });
+
             modelBuilder.Entity("ExamApp.Domain.Entities.Student", b =>
                 {
                     b.HasOne("Domain.Entities.SchoolClass", "SchoolClass")
@@ -131,12 +182,16 @@ namespace ExamApp.Infrastructure.Migrations
 
             modelBuilder.Entity("Domain.Entities.SchoolClass", b =>
                 {
+                    b.Navigation("Lessons");
+
                     b.Navigation("Students");
                 });
 
             modelBuilder.Entity("Domain.Entities.Teacher", b =>
                 {
                     b.Navigation("Classes");
+
+                    b.Navigation("Lessons");
                 });
 #pragma warning restore 612, 618
         }

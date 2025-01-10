@@ -11,5 +11,5 @@ namespace ExamApp.Domain.Entities;
 public class Student:BaseAuditableEntity
 {
     public int SchoolClassId { get; set; }
-    public SchoolClass SchoolClass { get; set; }=null!;
+    public SchoolClass SchoolClass { get; set; } = null!;
 }
