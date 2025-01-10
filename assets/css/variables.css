@@ -1,0 +1,22 @@
+:root {
+    --color-blue: #063d94;
+    --color-dark-blue: #062556;
+    --color-black: #000;
+    --color-light-blue: #ebf3ff;
+    --color-white: #fff;
+    --color-hover: #e6eaf0;
+    --color-succes: #06941e;
+    --color-succes-hover: #06941ea9;
+  
+  
+    --font-size-s: 14px;
+    --font-size-m: 1rem;
+    --font-size-xl: 28px;
+
+    --padding-l: 32px;
+  
+    --border-radius-s: 6px;
+    --border-radius-m: 8px;
+    --border-radius-l: 12px;
+    --border-radius-xl: 1rem;
+  }
