@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\views\\teacher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\views\\teacher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4177ACAB-D169-49A5-BE1C-7D14D36A088E}|src\\Domain\\Domain.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\domain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4177ACAB-D169-49A5-BE1C-7D14D36A088E}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Infrastructure",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "src\\Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-10T20:41:35.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T20:39:31.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "src\\WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Program.cs",
+              "RelativeToolTip": "src\\WebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T20:39:09.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\WebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\appsettings.json",
+              "RelativeToolTip": "src\\WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-10T20:37:44.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Domain\\Entities\\Teacher.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Teacher.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Domain\\Entities\\Teacher.cs",
+              "RelativeToolTip": "src\\Domain\\Entities\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T20:36:18.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "src\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "src\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T20:25:29.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Views\\Teacher\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\WebApp\\Views\\Teacher\\Index.cshtml",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Views\\Teacher\\Index.cshtml",
+              "RelativeToolTip": "src\\WebApp\\Views\\Teacher\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T20:25:23.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "src\\WebApp\\Controllers\\TeacherController.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "src\\WebApp\\Controllers\\TeacherController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T20:25:16.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "src\\WebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "src\\WebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T20:22:55.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

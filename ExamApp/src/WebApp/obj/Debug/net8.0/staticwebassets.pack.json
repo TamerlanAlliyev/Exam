@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApp.kgyr9w213v.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\layout.css",
+      "PackagePath": "staticwebassets\\assets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-create.css",
+      "PackagePath": "staticwebassets\\assets\\css\\student-create.css"
+    },
+    {
+      "Id": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-detail.css",
+      "PackagePath": "staticwebassets\\assets\\css\\student-detail.css"
+    },
+    {
+      "Id": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\table.css",
+      "PackagePath": "staticwebassets\\assets\\css\\table.css"
+    },
+    {
+      "Id": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\variables.css",
+      "PackagePath": "staticwebassets\\assets\\css\\variables.css"
+    },
+    {
+      "Id": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\camera.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\camera.svg"
+    },
+    {
+      "Id": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\stident-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\stident-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\user-profil.png",
+      "PackagePath": "staticwebassets\\assets\\images\\user-profil.png"
+    },
+    {
+      "Id": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\student-create.js",
+      "PackagePath": "staticwebassets\\assets\\js\\student-create.js"
+    },
+    {
+      "Id": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\table.js",
+      "PackagePath": "staticwebassets\\assets\\js\\table.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApp.props",
+      "PackagePath": "build\\WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApp.props",
+      "PackagePath": "buildTransitive\\WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

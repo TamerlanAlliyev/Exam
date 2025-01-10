@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/table.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200..1000&family=Nunito:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <a href="#" class="logo"> School </a>
+
+      <div class="sidebar-nav">
+        <div class="navbar">
+          <p class="header">Menu</p>
+          <ul>
+            <li class="active">
+              <a href="#">
+                <i class="fa-solid fa-book"></i>
+                <p>Lessons</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <p>Exams</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-chalkboard-teacher"></i>
+                <p>Teachers</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-user-graduate"></i>
+                <p>Students</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="date">
+          <i class="fa-solid fa-calendar-days"></i>
+          <p>1/9/2025 2:45 PM</p>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="students">
+        <div class="header">
+          <h3>Students</h3>
+          <a href="#">Add Student</a>
+        </div>
+
+        <div class="table container">
+          <div class="search-box">
+            <input type="text" id="search" placeholder="Search..." />
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Nömrəsi</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Sinf</th>
+                <th style="width: 10%">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              <tr>
+                <td>1</td>
+                <td>Ad 1</td>
+                <td>Soyad 1</td>
+                <td>Sinf 1</td>
+                <td class="actions">
+                  <a href="#" title="Info"
+                    ><i class="fa-solid fa-circle-info"></i
+                  ></a>
+                  <a href="#" title="delete"
+                    ><i class="fa-solid fa-trash-can"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Ad 2</td>
+                <td>Soyad 2</td>
+                <td>Sinf 1</td>
+                <td class="actions">
+                  <a href="#" title="Info"
+                    ><i class="fa-solid fa-circle-info"></i
+                  ></a>
+                  <a href="#" title="delete"
+                    ><i class="fa-solid fa-trash-can"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Ad 3</td>
+                <td>Soyad 3</td>
+                <td>Sinf 1</td>
+                <td class="actions">
+                  <a href="#" title="Info"
+                    ><i class="fa-solid fa-circle-info"></i
+                  ></a>
+                  <a href="#" title="delete"
+                    ><i class="fa-solid fa-trash-can"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Ad 4</td>
+                <td>Soyad 4</td>
+                <td>Sinf 2</td>
+                <td class="actions">
+                  <a href="#" title="Info"
+                    ><i class="fa-solid fa-circle-info"></i
+                  ></a>
+                  <a href="#" title="delete"
+                    ><i class="fa-solid fa-trash-can"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Ad 5</td>
+                <td>Soyad 5</td>
+                <td>Sinf 2</td>
+                <td class="actions">
+                  <a href="#" title="Info"
+                    ><i class="fa-solid fa-circle-info"></i
+                  ></a>
+                  <a href="#" title="delete"
+                    ><i class="fa-solid fa-trash-can"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Ad 6</td>
+                <td>Soyad 6</td>
+                <td>Sinf 2</td>
+                <td class="actions">
+                  <a href="#" title="Info"
+                    ><i class="fa-solid fa-circle-info"></i
+                  ></a>
+                  <a href="#" title="delete"
+                    ><i class="fa-solid fa-trash-can"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Ad 7</td>
+                <td>Soyad 7</td>
+                <td>Sinf 3</td>
+                <td class="actions">
+                  <a href="#" title="Info"
+                    ><i class="fa-solid fa-circle-info"></i
+                  ></a>
+                  <a href="#" title="delete"
+                    ><i class="fa-solid fa-trash-can"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Ad 8</td>
+                <td>Soyad 8</td>
+                <td>Sinf 3</td>
+                <td class="actions">
+                  <a href="#" title="Info"
+                    ><i class="fa-solid fa-circle-info"></i
+                  ></a>
+                  <a href="#" title="delete"
+                    ><i class="fa-solid fa-trash-can"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Ad 9</td>
+                <td>Soyad 9</td>
+                <td>Sinf 3</td>
+                <td class="actions">
+                  <a href="#" title="Info"
+                    ><i class="fa-solid fa-circle-info"></i
+                  ></a>
+                  <a href="#" title="delete"
+                    ><i class="fa-solid fa-trash-can"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Ad 10</td>
+                <td>Soyad 10</td>
+                <td>Sinf 4</td>
+                <td class="actions">
+                  <a href="#" title="Info"
+                    ><i class="fa-solid fa-circle-info"></i
+                  ></a>
+                  <a href="#" title="delete"
+                    ><i class="fa-solid fa-trash-can"></i
+                  ></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="pagination">
+            <button class="page-btn" id="prev-btn">
+              <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <span id="page-numbers"></span>
+            <button class="page-btn" id="next-btn">
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <footer>Developed By: Tamerlan Aliyev</footer>
+    </main>
+
+    <script src="./assets/js/table.js"></script>
+  </body>
+</html>
