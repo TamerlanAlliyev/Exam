@@ -4,13 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.Common;
-using Domain.Entities;
 
 namespace ExamApp.Domain.Entities;
 
-public class Student:BaseAuditableEntity
+public class ExamResult : BaseEntity
 {
-    public int SchoolClassId { get; set; }
-    public SchoolClass SchoolClass { get; set; } = null!;
+    public decimal LessonAverage { get; set; }
+    public decimal ExamRes { get; set; }
+    public decimal Average { get; set; }
+
+    public int ExamId { get; set; }
+    public Exam Exam { get; set; } = null!;
+
     public ICollection<StudentExamResult> ExamResults { get; set; } = new List<StudentExamResult>();
 }

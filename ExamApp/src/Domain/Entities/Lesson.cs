@@ -16,4 +16,7 @@ public class Lesson:BaseEntity
     public Teacher Teacher { get; set; } = null!;
     public int SchoolClassId { get; set; }
     public SchoolClass SchoolClass { get; set; } = null!;
+    public int? ExamId { get; set; }
+    public Exam? Exam { get; set; }
+
 }
