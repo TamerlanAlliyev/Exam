@@ -13,10 +13,13 @@ public class BaseAuditableConfiguration<T> : IEntityTypeConfiguration<T> where T
                     .HasColumnType("numeric(5, 0)")
                     .IsRequired(true);
 
+        builder.HasIndex(x => x.Number)
+               .IsUnique();
+
         builder.Property(x => x.Name)
-            .HasColumnType("varchar")
-            .HasMaxLength(30)
-            .IsRequired(true);
+               .HasColumnType("varchar")
+               .HasMaxLength(30)
+               .IsRequired(true);
 
         builder.Property(x => x.Surname)
                .HasColumnType("varchar")

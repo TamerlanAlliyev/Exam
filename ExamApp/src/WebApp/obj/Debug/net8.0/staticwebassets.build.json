@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "APzeuQ/cUCZ6mvcwXZFKV3hmWwpEMGr2C7VxtCupLtc=",
+  "Hash": "c+G+hLga4hSpXs2Uzu3Px+klYbUoQpt/p0yUJ7E9HT0=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7j80xbxcyr",
-      "Integrity": "zfcCW/AMnCeOGAa1Vu101jeN8cvuTXVGMkc2RRSG21U=",
+      "Fingerprint": "v42lbm7l8o",
+      "Integrity": "D7FvJqGPe9przNF7X75+O17F10qpg/Q5zwHWbthchCs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\student-create.css"
@@ -353,51 +353,6 @@
       ]
     },
     {
-      "Route": "assets/css/student-create.7j80xbxcyr.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-create.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2557"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zfcCW/AMnCeOGAa1Vu101jeN8cvuTXVGMkc2RRSG21U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 10 Jan 2025 09:03:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7j80xbxcyr"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/css/student-create.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zfcCW/AMnCeOGAa1Vu101jeN8cvuTXVGMkc2RRSG21U="
-        }
-      ]
-    },
-    {
       "Route": "assets/css/student-create.css",
       "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-create.css",
       "Selectors": [],
@@ -408,7 +363,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2557"
+          "Value": "2554"
         },
         {
           "Name": "Content-Type",
@@ -416,11 +371,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zfcCW/AMnCeOGAa1Vu101jeN8cvuTXVGMkc2RRSG21U=\""
+          "Value": "\"D7FvJqGPe9przNF7X75+O17F10qpg/Q5zwHWbthchCs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 10 Jan 2025 09:03:12 GMT"
+          "Value": "Sat, 11 Jan 2025 11:36:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -430,7 +385,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zfcCW/AMnCeOGAa1Vu101jeN8cvuTXVGMkc2RRSG21U="
+          "Value": "sha256-D7FvJqGPe9przNF7X75+O17F10qpg/Q5zwHWbthchCs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/css/student-create.v42lbm7l8o.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-create.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D7FvJqGPe9przNF7X75+O17F10qpg/Q5zwHWbthchCs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 11 Jan 2025 11:36:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v42lbm7l8o"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/css/student-create.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D7FvJqGPe9przNF7X75+O17F10qpg/Q5zwHWbthchCs="
         }
       ]
     },

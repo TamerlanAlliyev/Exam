@@ -1,4 +1,9 @@
-﻿using Infrastructure.Persistance;
+﻿using ExamApp.Application.Common.Mapping;
+using ExamApp.Application.Repositories;
+using ExamApp.Application.Services;
+using ExamApp.Infrastructure.Repositories;
+using ExamApp.Infrastructure.Services;
+using Infrastructure.Persistance;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,7 +26,9 @@ public static class DependencyInjection
       )
   );
 
-
+        services.AddAutoMapper(typeof(MappingProfile));
+        services.AddScoped<ITeacherRepository, TeacherRepository>();
+        services.AddScoped<ITeacherService, TeacherManager>();
 
         return services;
     }

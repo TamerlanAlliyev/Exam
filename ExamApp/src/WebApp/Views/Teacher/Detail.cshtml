@@ -1,0 +1,47 @@
+﻿@model TeacherVM
+
+
+@section Style{
+    <link rel="stylesheet" href="~/assets/css/student-detail.css" />
+
+}
+<section class="student-detail">
+
+    <div class="header">
+        <h3>School Teacher</h3>
+    </div>
+
+    <div class="student container">
+
+
+        <img style="object-fit:cover" src="~/assets/images/teachers/@(Model.ImageURL)" alt="Student" />
+
+        <div class="student-info">
+
+            <div class="info">
+                <p class="label">Number:</p>
+                <p class="value">@Model.Number</p>
+            </div>
+
+            <div class="info">
+                <p class="label">Name:</p>
+                <p class="value">@Model.Name</p>
+            </div>
+
+
+            <div class="info">
+                <p class="label">Surname:</p>
+                <p class="value">@Model.Surname</p>
+            </div>
+
+            <div class="info">
+                <p class="label">Specialization:</p>
+                <p class="value">@Model.Specialization</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>

@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gqlbg5l6r8"},{"Name":"integrity","Value":"sha256-yFZUD0D/BccCCb1cvndMvCMR8OpVfE80087FAyyG4IM="},{"Name":"label","Value":"_content/WebApp/assets/css/layout.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4139"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yFZUD0D/BccCCb1cvndMvCMR8OpVfE80087FAyyG4IM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 10 Jan 2025 08:15:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/WebApp/assets/css/student-create.7j80xbxcyr.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\student-create.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7j80xbxcyr"},{"Name":"integrity","Value":"sha256-zfcCW/AMnCeOGAa1Vu101jeN8cvuTXVGMkc2RRSG21U="},{"Name":"label","Value":"_content/WebApp/assets/css/student-create.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2557"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zfcCW/AMnCeOGAa1Vu101jeN8cvuTXVGMkc2RRSG21U=\u0022"},{"Name":"Last-Modified","Value":"Fri, 10 Jan 2025 09:03:12 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebApp/assets/css/student-create.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\student-create.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zfcCW/AMnCeOGAa1Vu101jeN8cvuTXVGMkc2RRSG21U="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2557"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zfcCW/AMnCeOGAa1Vu101jeN8cvuTXVGMkc2RRSG21U=\u0022"},{"Name":"Last-Modified","Value":"Fri, 10 Jan 2025 09:03:12 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-D7FvJqGPe9przNF7X75\u002BO17F10qpg/Q5zwHWbthchCs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2554"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022D7FvJqGPe9przNF7X75\u002BO17F10qpg/Q5zwHWbthchCs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 11 Jan 2025 11:36:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebApp/assets/css/student-create.v42lbm7l8o.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\student-create.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v42lbm7l8o"},{"Name":"integrity","Value":"sha256-D7FvJqGPe9przNF7X75\u002BO17F10qpg/Q5zwHWbthchCs="},{"Name":"label","Value":"_content/WebApp/assets/css/student-create.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2554"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022D7FvJqGPe9przNF7X75\u002BO17F10qpg/Q5zwHWbthchCs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 11 Jan 2025 11:36:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/WebApp/assets/css/student-detail.2j7fy3ls6s.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\student-detail.css'))</AssetFile>

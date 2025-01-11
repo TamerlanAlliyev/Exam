@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7j80xbxcyr</Fingerprint>
-      <Integrity>zfcCW/AMnCeOGAa1Vu101jeN8cvuTXVGMkc2RRSG21U=</Integrity>
+      <Fingerprint>v42lbm7l8o</Fingerprint>
+      <Integrity>D7FvJqGPe9przNF7X75+O17F10qpg/Q5zwHWbthchCs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\student-create.css'))</OriginalItemSpec>

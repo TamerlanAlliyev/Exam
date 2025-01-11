@@ -90,6 +90,8 @@ form {
   color: var(--color-black);
 }
 
+
+
 .data {
   width: 60%;
   display: flex;
@@ -113,7 +115,7 @@ span {
   color: var(--color-error);
 }
 
-input[type="text"] {
+.data-input {
   padding: 12px 16px;
   border-radius: var(--border-radius-m);
   border: transparent;

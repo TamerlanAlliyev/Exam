@@ -93,8 +93,23 @@
 
               <div class="data">
                 <div class="form-group">
+                  <label  for="number">Number</label>
+                  <input class="data-input"
+                    class="inpt"
+                    type="number"
+                    id="number"
+                    name="number"
+                    placeholder="Number"
+                    asp-for="Number"
+                    required
+                    min="0"
+                    max="99999"
+                    oninput="limitLength(this)"
+                  />
+                </div>
+                <div class="form-group">
                   <label for="name">Name</label>
-                  <input
+                  <input  class="data-input"
                     type="text"
                     id="name"
                     name="name"
@@ -105,7 +120,7 @@
                 </div>
                 <div class="form-group">
                   <label for="surname">Surname</label>
-                  <input
+                  <input  class="data-input"
                     type="text"
                     id="surname"
                     name="surname"
@@ -116,7 +131,7 @@
                 </div>
                 <div class="form-group">
                   <label for="class">Class</label>
-                  <input
+                  <input  class="data-input"
                     type="text"
                     id="class"
                     name="class"
@@ -140,3 +155,10 @@
     <script src="./assets/js/student-create.js"></script>
   </body>
 </html>
+<script>
+  function limitLength(input) {
+      if (input.value.length > 5) {
+          input.value = input.value.slice(0, 5); 
+      }
+  }
+</script>

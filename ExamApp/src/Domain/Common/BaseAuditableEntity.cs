@@ -11,5 +11,6 @@ namespace Domain.Common
         public int Number { get; set; }
         public string Name { get; set; } = null!;
         public string Surname { get; set; } = null!;
+        public string ImageURL { get; set; } = null!;
     }
 }
