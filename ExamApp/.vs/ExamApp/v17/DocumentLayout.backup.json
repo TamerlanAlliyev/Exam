@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\controllers\\schoolclasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\controllers\\schoolclasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\infrastructure\\services\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\infrastructure\\services\\schoolclassmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\schoolclassmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\application\\services\\ischoolclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\ischoolclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\views\\student\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\views\\student\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\infrastructure\\repositories\\schoolclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\repositories\\schoolclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\application\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|solutionrelative:src\\application\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\application\\repositories\\ischoolclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|solutionrelative:src\\application\\repositories\\ischoolclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\application\\viewmodels\\schoolclass\\schoolclassvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|solutionrelative:src\\application\\viewmodels\\schoolclass\\schoolclassvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\application\\viewmodels\\schoolclass\\schoolclasscreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|solutionrelative:src\\application\\viewmodels\\schoolclass\\schoolclasscreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\application\\viewmodels\\student\\studentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|solutionrelative:src\\application\\viewmodels\\student\\studentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\Repositories\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Repositories\\IBaseRepository.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\Repositories\\IBaseRepository.cs",
-              "RelativeToolTip": "src\\Application\\Repositories\\IBaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T06:08:56.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ISchoolClassService.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\Services\\ISchoolClassService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\ISchoolClassService.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\Services\\ISchoolClassService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\ISchoolClassService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T06:05:14.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ISchoolClassRepository.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\Repositories\\ISchoolClassRepository.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Repositories\\ISchoolClassRepository.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\Repositories\\ISchoolClassRepository.cs",
-              "RelativeToolTip": "src\\Application\\Repositories\\ISchoolClassRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T06:04:08.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SchoolClassManager.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\Services\\SchoolClassManager.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\SchoolClassManager.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\Services\\SchoolClassManager.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Services\\SchoolClassManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T06:02:30.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SchoolClassVM.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\ViewModels\\SchoolClass\\SchoolClassVM.cs",
-              "RelativeDocumentMoniker": "src\\Application\\ViewModels\\SchoolClass\\SchoolClassVM.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\ViewModels\\SchoolClass\\SchoolClassVM.cs",
-              "RelativeToolTip": "src\\Application\\ViewModels\\SchoolClass\\SchoolClassVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T05:59:16.477Z",
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Views\\Student\\Detail.cshtml",
+              "RelativeDocumentMoniker": "src\\WebApp\\Views\\Student\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Views\\Student\\Detail.cshtml",
+              "RelativeToolTip": "src\\WebApp\\Views\\Student\\Detail.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T09:22:57.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SchoolClassRepository.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\Repositories\\SchoolClassRepository.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Repositories\\SchoolClassRepository.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\Repositories\\SchoolClassRepository.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Repositories\\SchoolClassRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBYAAABFAAAAAAAAAA==",
+              "Title": "StudentVM.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\ViewModels\\Student\\StudentVM.cs",
+              "RelativeDocumentMoniker": "src\\Application\\ViewModels\\Student\\StudentVM.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\ViewModels\\Student\\StudentVM.cs",
+              "RelativeToolTip": "src\\Application\\ViewModels\\Student\\StudentVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T05:58:42.97Z",
+              "WhenOpened": "2025-01-12T09:21:21.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SchoolClassController.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Controllers\\SchoolClassController.cs",
-              "RelativeDocumentMoniker": "src\\WebApp\\Controllers\\SchoolClassController.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Controllers\\SchoolClassController.cs*",
-              "RelativeToolTip": "src\\WebApp\\Controllers\\SchoolClassController.cs*",
-              "ViewState": "AgIAACYAAAAAAAAAAAAuwD8AAAAoAAAAAAAAAA==",
+              "Title": "StudentManager.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\Services\\StudentManager.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\StudentManager.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\Services\\StudentManager.cs*",
+              "RelativeToolTip": "src\\Infrastructure\\Services\\StudentManager.cs*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwCUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T05:58:02.728Z",
+              "WhenOpened": "2025-01-12T09:20:52.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SchoolClassCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\ViewModels\\SchoolClass\\SchoolClassCreateVM.cs",
-              "RelativeDocumentMoniker": "src\\Application\\ViewModels\\SchoolClass\\SchoolClassCreateVM.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\ViewModels\\SchoolClass\\SchoolClassCreateVM.cs",
-              "RelativeToolTip": "src\\Application\\ViewModels\\SchoolClass\\SchoolClassCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "src\\WebApp\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "src\\WebApp\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T05:59:14.735Z",
+              "WhenOpened": "2025-01-12T09:20:33.953Z",
               "EditorCaption": ""
             }
           ]

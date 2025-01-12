@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2Zxahp25rkFMiQEtY0+gejvW5pksxqHJ/xfAplFo+ow=",
+  "Hash": "jBtbtKxBkafsrL3kboWGO40obyyMS2e6664+lWWvcTE=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -206,6 +206,258 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\stident-1.jpg"
     },
     {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\409c55a6-b4b9-452d-9d1f-dc05657fcfc8_Frame 626.png",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/students/409c55a6-b4b9-452d-9d1f-dc05657fcfc8_Frame 626#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t6wrwmvddb",
+      "Integrity": "S7y4gfEfap/UoO3hvsPm3OSFg55h/r9WJoVjifB/7FY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\students\\409c55a6-b4b9-452d-9d1f-dc05657fcfc8_Frame 626.png"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\46237309-6ef0-4d89-9341-02975b958577_profile.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/students/46237309-6ef0-4d89-9341-02975b958577_profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5tm38lefw",
+      "Integrity": "HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\students\\46237309-6ef0-4d89-9341-02975b958577_profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\694a72ce-f077-4587-85b4-5730ac81983e_profile.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/students/694a72ce-f077-4587-85b4-5730ac81983e_profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5tm38lefw",
+      "Integrity": "HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\students\\694a72ce-f077-4587-85b4-5730ac81983e_profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\6a71818a-6361-4642-b9fd-c78a19a1c3c6_profile.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/students/6a71818a-6361-4642-b9fd-c78a19a1c3c6_profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5tm38lefw",
+      "Integrity": "HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\students\\6a71818a-6361-4642-b9fd-c78a19a1c3c6_profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\70c72d0d-9d0b-426e-8509-b251c6e94ff7_profile.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/students/70c72d0d-9d0b-426e-8509-b251c6e94ff7_profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5tm38lefw",
+      "Integrity": "HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\students\\70c72d0d-9d0b-426e-8509-b251c6e94ff7_profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\80091644-a23d-4a3c-9c88-35d095cab0e5_profile.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/students/80091644-a23d-4a3c-9c88-35d095cab0e5_profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5tm38lefw",
+      "Integrity": "HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\students\\80091644-a23d-4a3c-9c88-35d095cab0e5_profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\8ffa555f-99de-4868-a40a-8e59a55ebc3b_profile.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/students/8ffa555f-99de-4868-a40a-8e59a55ebc3b_profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5tm38lefw",
+      "Integrity": "HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\students\\8ffa555f-99de-4868-a40a-8e59a55ebc3b_profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\aa783c8a-d3ee-454c-9aec-d5d155430ef4_profile.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/students/aa783c8a-d3ee-454c-9aec-d5d155430ef4_profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5tm38lefw",
+      "Integrity": "HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\students\\aa783c8a-d3ee-454c-9aec-d5d155430ef4_profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\d5be78e2-7d69-4ef5-a6c1-89b38ec191bb_Frame 626.png",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/students/d5be78e2-7d69-4ef5-a6c1-89b38ec191bb_Frame 626#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t6wrwmvddb",
+      "Integrity": "S7y4gfEfap/UoO3hvsPm3OSFg55h/r9WJoVjifB/7FY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\students\\d5be78e2-7d69-4ef5-a6c1-89b38ec191bb_Frame 626.png"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\ded161a0-3b7d-4518-a141-19331565e153_profile.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/students/ded161a0-3b7d-4518-a141-19331565e153_profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5tm38lefw",
+      "Integrity": "HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\students\\ded161a0-3b7d-4518-a141-19331565e153_profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\e93e7017-55d6-4f88-be9f-6c77d9607ca3_profile.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/students/e93e7017-55d6-4f88-be9f-6c77d9607ca3_profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5tm38lefw",
+      "Integrity": "HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\students\\e93e7017-55d6-4f88-be9f-6c77d9607ca3_profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\f1558335-c030-4841-a495-1516c2d60f10_profile.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/students/f1558335-c030-4841-a495-1516c2d60f10_profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5tm38lefw",
+      "Integrity": "HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\students\\f1558335-c030-4841-a495-1516c2d60f10_profile.jpg"
+    },
+    {
       "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\7d369545-4efb-4503-9b08-8b93e26ea078_profile.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
@@ -225,6 +477,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\teachers\\7d369545-4efb-4503-9b08-8b93e26ea078_profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\88a28979-8324-48a9-9f3b-1a9b21fa1cd1_profile.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/teachers/88a28979-8324-48a9-9f3b-1a9b21fa1cd1_profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5tm38lefw",
+      "Integrity": "HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\teachers\\88a28979-8324-48a9-9f3b-1a9b21fa1cd1_profile.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\8defd564-47c5-44e5-bb1c-31c33e3fdc9a_profile.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "assets/images/teachers/8defd564-47c5-44e5-bb1c-31c33e3fdc9a_profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5tm38lefw",
+      "Integrity": "HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\teachers\\8defd564-47c5-44e5-bb1c-31c33e3fdc9a_profile.jpg"
     },
     {
       "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\user-profil.png",
@@ -866,6 +1160,990 @@
       ]
     },
     {
+      "Route": "assets/images/students/409c55a6-b4b9-452d-9d1f-dc05657fcfc8_Frame 626.png",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\409c55a6-b4b9-452d-9d1f-dc05657fcfc8_Frame 626.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1886117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7y4gfEfap/UoO3hvsPm3OSFg55h/r9WJoVjifB/7FY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:27:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7y4gfEfap/UoO3hvsPm3OSFg55h/r9WJoVjifB/7FY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/409c55a6-b4b9-452d-9d1f-dc05657fcfc8_Frame 626.t6wrwmvddb.png",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\409c55a6-b4b9-452d-9d1f-dc05657fcfc8_Frame 626.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1886117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7y4gfEfap/UoO3hvsPm3OSFg55h/r9WJoVjifB/7FY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:27:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t6wrwmvddb"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/students/409c55a6-b4b9-452d-9d1f-dc05657fcfc8_Frame 626.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7y4gfEfap/UoO3hvsPm3OSFg55h/r9WJoVjifB/7FY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/46237309-6ef0-4d89-9341-02975b958577_profile.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\46237309-6ef0-4d89-9341-02975b958577_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:28:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/46237309-6ef0-4d89-9341-02975b958577_profile.o5tm38lefw.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\46237309-6ef0-4d89-9341-02975b958577_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:28:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5tm38lefw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/students/46237309-6ef0-4d89-9341-02975b958577_profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/694a72ce-f077-4587-85b4-5730ac81983e_profile.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\694a72ce-f077-4587-85b4-5730ac81983e_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:32:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/694a72ce-f077-4587-85b4-5730ac81983e_profile.o5tm38lefw.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\694a72ce-f077-4587-85b4-5730ac81983e_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:32:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5tm38lefw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/students/694a72ce-f077-4587-85b4-5730ac81983e_profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/6a71818a-6361-4642-b9fd-c78a19a1c3c6_profile.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\6a71818a-6361-4642-b9fd-c78a19a1c3c6_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:30:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/6a71818a-6361-4642-b9fd-c78a19a1c3c6_profile.o5tm38lefw.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\6a71818a-6361-4642-b9fd-c78a19a1c3c6_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:30:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5tm38lefw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/students/6a71818a-6361-4642-b9fd-c78a19a1c3c6_profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/70c72d0d-9d0b-426e-8509-b251c6e94ff7_profile.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\70c72d0d-9d0b-426e-8509-b251c6e94ff7_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:55:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/70c72d0d-9d0b-426e-8509-b251c6e94ff7_profile.o5tm38lefw.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\70c72d0d-9d0b-426e-8509-b251c6e94ff7_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:55:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5tm38lefw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/students/70c72d0d-9d0b-426e-8509-b251c6e94ff7_profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/80091644-a23d-4a3c-9c88-35d095cab0e5_profile.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\80091644-a23d-4a3c-9c88-35d095cab0e5_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:24:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/80091644-a23d-4a3c-9c88-35d095cab0e5_profile.o5tm38lefw.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\80091644-a23d-4a3c-9c88-35d095cab0e5_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:24:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5tm38lefw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/students/80091644-a23d-4a3c-9c88-35d095cab0e5_profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/8ffa555f-99de-4868-a40a-8e59a55ebc3b_profile.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\8ffa555f-99de-4868-a40a-8e59a55ebc3b_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:55:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/8ffa555f-99de-4868-a40a-8e59a55ebc3b_profile.o5tm38lefw.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\8ffa555f-99de-4868-a40a-8e59a55ebc3b_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:55:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5tm38lefw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/students/8ffa555f-99de-4868-a40a-8e59a55ebc3b_profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/aa783c8a-d3ee-454c-9aec-d5d155430ef4_profile.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\aa783c8a-d3ee-454c-9aec-d5d155430ef4_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/aa783c8a-d3ee-454c-9aec-d5d155430ef4_profile.o5tm38lefw.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\aa783c8a-d3ee-454c-9aec-d5d155430ef4_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:36:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5tm38lefw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/students/aa783c8a-d3ee-454c-9aec-d5d155430ef4_profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/d5be78e2-7d69-4ef5-a6c1-89b38ec191bb_Frame 626.png",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\d5be78e2-7d69-4ef5-a6c1-89b38ec191bb_Frame 626.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1886117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7y4gfEfap/UoO3hvsPm3OSFg55h/r9WJoVjifB/7FY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:27:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7y4gfEfap/UoO3hvsPm3OSFg55h/r9WJoVjifB/7FY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/d5be78e2-7d69-4ef5-a6c1-89b38ec191bb_Frame 626.t6wrwmvddb.png",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\d5be78e2-7d69-4ef5-a6c1-89b38ec191bb_Frame 626.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1886117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7y4gfEfap/UoO3hvsPm3OSFg55h/r9WJoVjifB/7FY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:27:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t6wrwmvddb"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/students/d5be78e2-7d69-4ef5-a6c1-89b38ec191bb_Frame 626.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7y4gfEfap/UoO3hvsPm3OSFg55h/r9WJoVjifB/7FY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/ded161a0-3b7d-4518-a141-19331565e153_profile.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\ded161a0-3b7d-4518-a141-19331565e153_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:35:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/ded161a0-3b7d-4518-a141-19331565e153_profile.o5tm38lefw.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\ded161a0-3b7d-4518-a141-19331565e153_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:35:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5tm38lefw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/students/ded161a0-3b7d-4518-a141-19331565e153_profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/e93e7017-55d6-4f88-be9f-6c77d9607ca3_profile.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\e93e7017-55d6-4f88-be9f-6c77d9607ca3_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:37:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/e93e7017-55d6-4f88-be9f-6c77d9607ca3_profile.o5tm38lefw.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\e93e7017-55d6-4f88-be9f-6c77d9607ca3_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:37:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5tm38lefw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/students/e93e7017-55d6-4f88-be9f-6c77d9607ca3_profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/f1558335-c030-4841-a495-1516c2d60f10_profile.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\f1558335-c030-4841-a495-1516c2d60f10_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:37:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/students/f1558335-c030-4841-a495-1516c2d60f10_profile.o5tm38lefw.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\f1558335-c030-4841-a495-1516c2d60f10_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:37:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5tm38lefw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/students/f1558335-c030-4841-a495-1516c2d60f10_profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
       "Route": "assets/images/teachers/7d369545-4efb-4503-9b08-8b93e26ea078_profile.jpg",
       "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\7d369545-4efb-4503-9b08-8b93e26ea078_profile.jpg",
       "Selectors": [],
@@ -940,6 +2218,170 @@
         {
           "Name": "label",
           "Value": "assets/images/teachers/7d369545-4efb-4503-9b08-8b93e26ea078_profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/teachers/88a28979-8324-48a9-9f3b-1a9b21fa1cd1_profile.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\88a28979-8324-48a9-9f3b-1a9b21fa1cd1_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:22:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/teachers/88a28979-8324-48a9-9f3b-1a9b21fa1cd1_profile.o5tm38lefw.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\88a28979-8324-48a9-9f3b-1a9b21fa1cd1_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:22:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5tm38lefw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/teachers/88a28979-8324-48a9-9f3b-1a9b21fa1cd1_profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/teachers/8defd564-47c5-44e5-bb1c-31c33e3fdc9a_profile.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\8defd564-47c5-44e5-bb1c-31c33e3fdc9a_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:20:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/images/teachers/8defd564-47c5-44e5-bb1c-31c33e3fdc9a_profile.o5tm38lefw.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\8defd564-47c5-44e5-bb1c-31c33e3fdc9a_profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBBVuQswMSZiSUQ4OM5ac9i2Rtqs48KgZrABHHbNDSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 07:20:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5tm38lefw"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/images/teachers/8defd564-47c5-44e5-bb1c-31c33e3fdc9a_profile.jpg"
         },
         {
           "Name": "integrity",

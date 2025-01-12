@@ -39,10 +39,9 @@ public class SchoolClassController : Controller
     {
         try
         {
-            var teachers = await _service.GetSelectionTeacher();
             return View(new SchoolClassVM
             {
-                Teachers = teachers
+                Teachers = await _service.GetSelectionTeacher()
             });
         }
         catch (Exception ex)

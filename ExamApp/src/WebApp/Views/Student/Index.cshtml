@@ -1,0 +1,92 @@
+﻿@using Domain.Entities
+@using ExamApp.Domain.Entities
+@model List<Student>
+
+<section class="SchoolClass">
+	<div class="header">
+		<h3>Students</h3>
+		<a asp-action="create">Add New Student</a>
+	</div>
+
+	<div class="table container">
+		<div class="search-box">
+			<input type="text" id="search" placeholder="Search..." />
+		</div>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Student Number</th>
+					<th>Name</th>
+					<th>Surname</th>
+					<th>Class</th>
+					<th style="width: 10%">Actions</th>
+				</tr>
+			</thead>
+			<tbody id="table-body">
+
+				@foreach (var SchoolClass in Model)
+				{
+						<tr>
+						<td>@SchoolClass.Number</td>
+						<td>@SchoolClass.Name</td>
+						<td>@SchoolClass.Surname</td>
+						<td>@SchoolClass.SchoolClass.Class</td>
+							<td class="actions">
+								<a asp-action="Detail" asp-route-id="@SchoolClass.Id" title="SchoolClass Detail">
+									<i class="fa-solid fa-circle-info"></i>
+								</a>
+								<a class="delete-button" asp-action="Delete" asp-route-id="@SchoolClass.Id" title="delete">
+									<i class="fa-solid fa-trash-can"></i>
+								</a>
+							</td>
+						</tr>
+				}
+
+			</tbody>
+		</table>
+
+		<div class="pagination">
+			<button class="page-btn" id="prev-btn">
+				<i class="fa-solid fa-angle-left"></i>
+			</button>
+			<span id="page-numbers"></span>
+			<button class="page-btn" id="next-btn">
+				<i class="fa-solid fa-angle-right"></i>
+			</button>
+		</div>
+	</div>
+</section>
+
+@section Script {
+		<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+		<script>
+					$(document).on("click", ".delete-button", function(e) {
+				e.preventDefault();
+				let url = $(this).attr("href");
+
+				Swal.fire({
+					title: "Are you sure?",
+					text: "You won't be able to revert this!",
+					icon: "warning",
+					showCancelButton: true,
+					confirmButtonColor: "#3085d6",
+					cancelButtonColor: "#d33",
+					confirmButtonText: "Yes, delete it!"
+				}).then((result) => {
+					if (result.isConfirmed) {
+						Swal.fire({
+							title: "Deleted!",
+							text: "Your file has been deleted.",
+							icon: "success"
+						}).then(() => {
+							window.location.href = url;
+						});
+					}
+				});
+			});
+
+		</script>
+}

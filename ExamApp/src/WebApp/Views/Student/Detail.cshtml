@@ -1,0 +1,50 @@
+﻿@using ExamApp.Application.ViewModels.Student
+@model StudentVM
+
+
+@section Style {
+    <link rel="stylesheet" href="~/assets/css/student-detail.css" />
+
+}
+<section class="student-detail">
+
+    <div class="header">
+        <h3>School Teacher</h3>
+        <a style="background:#062556" asp-action="Index"><i class="fa-solid fa-arrow-left"></i> Back</a>
+
+    </div>
+
+    <div class="student container">
+
+
+        <img style="object-fit:cover" src="~/assets/images/students/@(Model.ImageURL)" alt="Student" /> 
+
+        <div class="student-info">
+
+            <div class="info">
+                <p class="label">Number:</p>
+                <p class="value">@Model.Number</p>
+            </div>
+
+            <div class="info">
+                <p class="label">Name:</p>
+                <p class="value">@Model.Name</p>
+            </div>
+
+
+            <div class="info">
+                <p class="label">Surname:</p>
+                <p class="value">@Model.Surname</p>
+            </div>
+
+         <div class="info">
+                <p class="label">Class:</p>
+                <p class="value">@Model.Class</p>
+            </div> 
+
+        </div>
+
+    </div>
+
+
+</section>
