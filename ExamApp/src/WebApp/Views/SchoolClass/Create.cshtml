@@ -1,0 +1,57 @@
+﻿@using ExamApp.Application.ViewModels.SchoolClass
+@section Style {
+	<link rel="stylesheet" href="~/assets/css/student-create.css" />
+}
+@model SchoolClassVM
+
+<section class="student-create">
+	<div class="header">
+		<h3>Add New Teacher</h3>
+		<a style="background:#062556" asp-action="Index"><i class="fa-solid fa-arrow-left"></i> Back</a>
+
+	</div>
+
+	<div class="teacher container">
+		<form enctype="multipart/form-data" method="post">
+
+			<div style="width:30%" class="data">
+				<div class="form-group">
+					<label for="number">Class</label>
+					<input class="data-input"
+						   type="number"
+						   id="class"
+						   name="class"
+						   placeholder="Class"
+						   asp-for="Class"
+						   required
+						   value="10"
+						   min="10"
+						   max="99"
+						   oninput="limitLength(this) " />
+					<span asp-validation-for="Class"></span>
+				</div>
+				
+				<div class="form-group">
+					<label asp-for="TeacherId" class="control-label">Select Teacher</label>
+					<select class="data-input" asp-for="TeacherId" asp-items="Model.Teachers" class="form-control">
+						<option value="">Select a Teacher</option>
+					</select>
+					<span asp-validation-for="TeacherId" class="text-danger"></span>
+				</div>
+			</div>
+
+			<button as type="submit">Submit</button>
+		</form>
+	</div>
+</section>
+
+@section Script {
+	<script src="~/assets/js/student-create.js"></script>
+	<script>
+		function limitLength(input) {
+			if (input.value.length > 2) {
+				input.value = input.value.slice(0, 2);
+			}
+		}
+	</script>
+}

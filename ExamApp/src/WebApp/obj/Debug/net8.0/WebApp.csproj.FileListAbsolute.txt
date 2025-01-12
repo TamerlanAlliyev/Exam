@@ -170,3 +170,6 @@ C:\Users\G713RW\OneDrive\Desktop\İntervu\Project\Exam program\ExamApp\src\WebAp
 C:\Users\G713RW\OneDrive\Desktop\İntervu\Project\Exam program\ExamApp\src\WebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\G713RW\OneDrive\Desktop\İntervu\Project\Exam program\ExamApp\src\WebApp\bin\Debug\net8.0\SendGrid.dll
 C:\Users\G713RW\OneDrive\Desktop\İntervu\Project\Exam program\ExamApp\src\WebApp\bin\Debug\net8.0\StarkbankEcdsa.dll
+C:\Users\G713RW\OneDrive\Desktop\İntervu\Project\Exam program\ExamApp\src\WebApp\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\G713RW\OneDrive\Desktop\İntervu\Project\Exam program\ExamApp\src\WebApp\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\G713RW\OneDrive\Desktop\İntervu\Project\Exam program\ExamApp\src\WebApp\obj\Debug\net8.0\WebApp.MvcApplicationPartsAssemblyInfo.cs

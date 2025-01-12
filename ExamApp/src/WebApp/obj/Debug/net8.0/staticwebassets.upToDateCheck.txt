@@ -5,6 +5,7 @@ wwwroot\assets\css\table.css
 wwwroot\assets\css\variables.css
 wwwroot\assets\images\camera.svg
 wwwroot\assets\images\stident-1.jpg
+wwwroot\assets\images\teachers\7d369545-4efb-4503-9b08-8b93e26ea078_profile.jpg
 wwwroot\assets\images\user-profil.png
 wwwroot\assets\js\student-create.js
 wwwroot\assets\js\table.js

@@ -51,6 +51,12 @@ public class TeacherManager : ITeacherService
         return _mapper.Map<List<TeacherVM>>(teachers);
     }
 
+ 
+    public async Task<bool> GetAnyTeacherAsync(int number)
+    {
+        return await _repository.GetAnyAsync(number);
+    }
+
     public async Task<TeacherVM> GetTeacherAsync(int id)
     {
         Teacher? teachers = await _repository.GetAsync(id);

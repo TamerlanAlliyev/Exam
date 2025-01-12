@@ -13,4 +13,5 @@ public interface ITeacherService
     Task DeleteTeacherAsync(int id);
     Task<IEnumerable<TeacherVM>> GetAllTeacherAsync();
     Task<TeacherVM> GetTeacherAsync(int id);
+    Task<bool> GetAnyTeacherAsync(int number);
 }

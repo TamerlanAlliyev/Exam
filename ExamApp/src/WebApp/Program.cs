@@ -1,5 +1,4 @@
-using ExamApp.Application.Common.Mapping;
-using Infrastructure;
+﻿using Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();

@@ -24,31 +24,31 @@
 			<div class="navbar">
 				<p class="header">Menu</p>
 				<ul>
-					<li class="@(ViewContext.RouteData.Values["controller"].ToString() == "SchoolClass"  ? "active" : "")">
+					<li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "SchoolClass"  ? "active" : "")">
 						<a asp-controller="SchoolClass" asp-action="Index">
 							<i class="fa-solid fa-school-flag"></i>
 							<p>Class</p>
 						</a>
 					</li>
-					<li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Lesson"  ? "active" : "")">
+					<li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Lesson"  ? "active" : "")">
 						<a href="~/#">
 							<i class="fa-solid fa-book"></i>
 							<p>Lessons</p>
 						</a>
 					</li>
-					<li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Exam"  ? "active" : "")">
+					<li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Exam"  ? "active" : "")">
 						<a href="~/#">
 							<i class="fa-solid fa-pen-to-square"></i>
 							<p>Exams</p>
 						</a>
 					</li>
-					<li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Teacher"  ? "active" : "")">
+					<li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Teacher"  ? "active" : "")">
 						<a asp-controller="Teacher" asp-action="index">
 							<i class="fa-solid fa-chalkboard-teacher"></i>
 							<p>Teachers</p>
 						</a>
 					</li>
-					<li class="@(ViewContext.RouteData.Values["controller"].ToString() == "Student"  ? "active" : "")">
+					<li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Student"  ? "active" : "")">
 						<a href="~/#">
 							<i class="fa-solid fa-user-graduate"></i>
 							<p>Students</p>
@@ -58,7 +58,7 @@
 			</div>
 			<div class="date">
 				<i class="fa-solid fa-calendar-days"></i>
-				<p>@DateTime.Now.ToString("M/d/yyyy h:mm tt")</p>
+				<p>@DateTime.Now.ToString("M/d/yyyy")</p>
 			</div>
 		</div>
 	</aside>

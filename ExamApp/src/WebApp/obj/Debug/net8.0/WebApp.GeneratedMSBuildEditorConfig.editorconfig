@@ -24,8 +24,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/SchoolClass/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sQ2xhc3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/SchoolClass/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sQ2xhc3NcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/SchoolClass/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sQ2xhc3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Shared/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yNDA0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Teacher/Create.cshtml]

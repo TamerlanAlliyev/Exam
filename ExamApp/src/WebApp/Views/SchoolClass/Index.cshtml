@@ -1,6 +1,7 @@
-﻿@* @model List<TeacherVM> *@
+﻿@using Domain.Entities
+@model List<SchoolClass>
 
-<section class="teacher">
+<section class="SchoolClass">
 	<div class="header">
 		<h3>Classes</h3>
 		<a asp-action="create">Add New Class</a>
@@ -21,23 +22,23 @@
 				</tr>
 			</thead>
 			<tbody id="table-body">
-				@* @foreach (var teacher in Model)
+				
+				@foreach (var SchoolClass in Model)
 				{
 					<tr>
-						<td>@teacher.Number</td>
-						<td>@teacher.Name</td>
-						<td>@teacher.Surname</td>
-						<td>@teacher.Specialization</td>
+						<td>@SchoolClass.Class</td>
+						<td>@(SchoolClass.Teacher?.Name + " " + SchoolClass.Teacher?.Surname)</td>
+						<td>@(SchoolClass.Students?.Count() ?? 0)</td>
 						<td class="actions">
-							<a asp-action="Detail" asp-route-id="@teacher.Id" title="Teacher Detail">
+							<a asp-action="Detail" asp-route-id="@SchoolClass.Id" title="SchoolClass Detail">
 								<i class="fa-solid fa-circle-info"></i>
 							</a>
-							<a class="delete-button" asp-action="Delete" asp-route-id="@teacher.Id" title="delete">
+							<a class="delete-button" asp-action="Delete" asp-route-id="@SchoolClass.Id" title="delete">
 								<i class="fa-solid fa-trash-can"></i>
 							</a>
 						</td>
 					</tr>
-				} *@
+				}
 
 			</tbody>
 		</table>

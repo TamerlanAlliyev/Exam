@@ -20,15 +20,17 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<ApplicationDbContext>(options =>
-      options.UseSqlServer(
+        options.UseSqlServer(
           configuration.GetConnectionString("MSSQL"),
           b => b.MigrationsAssembly("Infrastructure")
-      )
-  );
+        ));
+
 
         services.AddAutoMapper(typeof(MappingProfile));
         services.AddScoped<ITeacherRepository, TeacherRepository>();
         services.AddScoped<ITeacherService, TeacherManager>();
+        services.AddScoped<ISchoolClassRepository, SchoolClassRepository>();
+        services.AddScoped<ISchoolClassService, SchoolClassManager>();
 
         return services;
     }

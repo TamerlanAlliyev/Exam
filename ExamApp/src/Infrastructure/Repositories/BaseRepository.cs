@@ -8,6 +8,7 @@ using Domain.Common;
 using ExamApp.Application.Repositories;
 using Infrastructure.Persistance;
 using Microsoft.EntityFrameworkCore;
+using SendGrid.Helpers.Errors.Model;
 
 namespace ExamApp.Infrastructure.Repositories;
 
@@ -28,17 +29,30 @@ public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : 
     public async Task DeleteAsync(int id)
     {
         var entity = await _context.Set<TEntity>().FindAsync(id);
+        if (entity == null)
+        {
+            throw new KeyNotFoundException($"Entity with id {id} was not found.");
+        }
         _context.Set<TEntity>().Remove(entity);
         await _context.SaveChangesAsync();
     }
 
     public async Task<TEntity?> GetAsync(int id)
     {
-        return await _context.Set<TEntity>().FindAsync(id);
+        return await _context.Set<TEntity>().FirstOrDefaultAsync(x => x.Id == id);
     }
 
+    public async Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> expression, params string[] includes)
+    {
+        var query = _context.Set<TEntity>().AsQueryable();
+        foreach (var include in includes)
+        {
+            query = query.Include(include);
+        }
+        return await query.FirstOrDefaultAsync(expression);
+    }
 
-    public async Task<List<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>> expression = null, params string[] includes)
+    public async Task<List<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>>? expression = null, params string[] includes)
     {
         var entity = _context.Set<TEntity>().AsQueryable();
         foreach (var type in includes)

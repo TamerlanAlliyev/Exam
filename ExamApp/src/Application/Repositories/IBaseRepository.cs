@@ -13,6 +13,7 @@ public interface IBaseRepository<TEntity> where TEntity : BaseEntity
     Task CreateAsync(TEntity entity);
     Task DeleteAsync(int id);
     Task<TEntity?> GetAsync(int id);
-    //Task<List<TEntity>> GetAll(Expression<Func<TEntity, bool>> expression = null, params string[] includes);
-    Task<List<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>> expression = null, params string[] includes);
+    Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> expression, params string[] includes);
+
+    Task<List<TEntity>> GetAllAsync(Expression<Func<TEntity, bool>>? expression = null, params string[] includes);
 }
