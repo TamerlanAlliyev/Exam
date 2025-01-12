@@ -37,7 +37,7 @@
 						</a>
 					</li>
 					<li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Exam"  ? "active" : "")">
-						<a href="~/#">
+						<a asp-controller="Exam" asp-action="Index">
 							<i class="fa-solid fa-pen-to-square"></i>
 							<p>Exams</p>
 						</a>

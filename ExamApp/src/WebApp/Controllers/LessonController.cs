@@ -63,8 +63,6 @@ public class LessonController : Controller
         {
             return View("Error404", ex);
         }
-
-      
     }
 
     [HttpPost]

@@ -29,7 +29,7 @@ public class ExamConfiguration:BaseConfiguration<Exam>
 
         builder.HasOne(x => x.Lesson)
                .WithOne(x => x.Exam)
-               .HasForeignKey<Lesson>(x => x.ExamId);
+               .HasForeignKey<Exam>(x => x.LessonId);
 
         base.Configure(builder);
     }

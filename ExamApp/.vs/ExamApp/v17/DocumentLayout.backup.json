@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\views\\exam\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\views\\exam\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\application\\services\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\infrastructure\\services\\exammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\exammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LessonController.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Controllers\\LessonController.cs",
-              "RelativeDocumentMoniker": "src\\WebApp\\Controllers\\LessonController.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Controllers\\LessonController.cs*",
-              "RelativeToolTip": "src\\WebApp\\Controllers\\LessonController.cs*",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowCUAAAAFAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Views\\Exam\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\WebApp\\Views\\Exam\\Index.cshtml",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Views\\Exam\\Index.cshtml*",
+              "RelativeToolTip": "src\\WebApp\\Views\\Exam\\Index.cshtml*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T19:48:51.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "src\\WebApp\\Controllers\\ExamController.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "src\\WebApp\\Controllers\\ExamController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T16:27:37.221Z",
+              "WhenOpened": "2025-01-12T19:46:13.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IExamService.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\Services\\IExamService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\IExamService.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Application\\Services\\IExamService.cs*",
+              "RelativeToolTip": "src\\Application\\Services\\IExamService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T19:46:05.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExamManager.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\Services\\ExamManager.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\ExamManager.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\Services\\ExamManager.cs*",
+              "RelativeToolTip": "src\\Infrastructure\\Services\\ExamManager.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T19:45:14.23Z",
               "EditorCaption": ""
             }
           ]

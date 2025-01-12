@@ -1,6 +1,7 @@
 ﻿using System;
 using AutoMapper;
 using Domain.Entities;
+using ExamApp.Application.ViewModels.Exam;
 using ExamApp.Application.ViewModels.Lesson;
 using ExamApp.Application.ViewModels.SchoolClass;
 using ExamApp.Application.ViewModels.Student;
@@ -28,6 +29,9 @@ public class MappingProfile : Profile
         CreateMap<Student, StudentVM>().ReverseMap();
 
         CreateMap<Lesson, LessonVM>().ReverseMap();
+
+        CreateMap<Exam, ExamVM>().ReverseMap();
+        CreateMap<Exam, ExamCreateVM>().ReverseMap();
     }
 }
 
