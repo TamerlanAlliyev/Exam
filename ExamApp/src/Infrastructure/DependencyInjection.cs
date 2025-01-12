@@ -1,5 +1,6 @@
 ﻿using ExamApp.Application.Common.Mapping;
 using ExamApp.Application.Repositories;
+using ExamApp.Application.Repositoriesp;
 using ExamApp.Application.Services;
 using ExamApp.Infrastructure.Repositories;
 using ExamApp.Infrastructure.Services;
@@ -34,6 +35,8 @@ public static class DependencyInjection
         services.AddScoped<IStudentRepository, StudentRepository>();
         services.AddScoped<IStudentService, StudentManager>();
 
+        services.AddScoped<ILessonRepository, LessonRepository>();
+        services.AddScoped<ILessonService, LessonManager>();
         return services;
     }
 }

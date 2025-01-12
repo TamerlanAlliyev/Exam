@@ -26,14 +26,6 @@ public class SchoolClassManager : ISchoolClassService
         _mapper = mapper;
         _repository = repository;
     }
-
-    public async Task<SchoolClassCreateVM> CreateSchoolClassAsync(SchoolClassCreateVM vm)
-    {
-        var schoolClass = _mapper.Map<SchoolClass>(vm);
-        await _repository.CreateAsync(schoolClass);
-        return vm;
-    }
-
     public async Task CreateSchoolClassAsync(SchoolClassVM vm)
     {
         var schoolClass = _mapper.Map<SchoolClass>(vm);

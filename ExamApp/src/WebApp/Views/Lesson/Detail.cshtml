@@ -1,0 +1,54 @@
+﻿@model Lesson
+
+
+@section Style {
+	<link rel="stylesheet" href="~/assets/css/student-detail.css" />
+
+}
+<section class="student-detail">
+
+	<div class="header">
+		<h3>Lesson: @Model.LessonName</h3>
+		<a style="background:#062556" asp-action="Index"><i class="fa-solid fa-arrow-left"></i> Back</a>
+	</div>
+
+	<div class="student container">
+
+		<div class="student-info">
+
+			<div class="info">
+				<p class="label">Lesson Code:</p>
+				<p class="value">@Model.LessonCode</p>
+			</div>
+
+			<div class="info">
+				<p class="label">Lesson Name:</p>
+				<p class="value">@Model.LessonName</p>
+			</div>
+
+			<div class="info">
+				<p class="label">Teacher:</p>
+				<p class="value">@(Model.SchoolClass.Teacher.Name + " " + Model.SchoolClass.Teacher.Surname)</p>
+			</div>
+
+			<div class="info">
+				<p class="label">Class:</p>
+				<p class="value">@(Model.SchoolClass.Class)</p>
+			</div>
+
+			<div class="info">
+				<p class="label">Student Count:</p>
+				<p class="value">@(Model.SchoolClass.Students?.Count())</p>
+			</div>
+
+			<div class="info">
+				<p class="label">Exam:</p>
+				<p class="value">@((Model.Exam?.Status == true ? Model.Exam.Date : "There is no"))</p>
+			</div>
+		</div>
+
+	</div>
+
+
+</section>
+

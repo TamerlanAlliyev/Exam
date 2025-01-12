@@ -156,7 +156,7 @@ namespace ExamApp.Infrastructure.Migrations
                     b.Property<int>("SchoolClassId")
                         .HasColumnType("int");
 
-                    b.Property<int>("TeacherId")
+                    b.Property<int?>("TeacherId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -262,17 +262,13 @@ namespace ExamApp.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
-                    b.HasOne("Domain.Entities.Teacher", "Teacher")
+                    b.HasOne("Domain.Entities.Teacher", null)
                         .WithMany("Lessons")
-                        .HasForeignKey("TeacherId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
+                        .HasForeignKey("TeacherId");
 
                     b.Navigation("Exam");
 
                     b.Navigation("SchoolClass");
-
-                    b.Navigation("Teacher");
                 });
 
             modelBuilder.Entity("ExamApp.Domain.Entities.Student", b =>

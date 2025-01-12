@@ -1,0 +1,69 @@
+﻿@model LessonVM
+
+@section Style {
+	<link rel="stylesheet" href="~/assets/css/student-create.css" />
+}
+
+<section class="student-create">
+	<div class="header">
+		<h3>Add New Teacher</h3>
+		<a style="background:#062556" asp-action="Index"><i class="fa-solid fa-arrow-left"></i> Back</a>
+
+	</div>
+
+	<div class="teacher container">
+		<form enctype="multipart/form-data" method="post">
+			
+			<div style="width:30%" class="data">
+				<div class="form-group">
+					<label for="lessonCode">Lesson Code</label>
+					<input class="data-input"
+						   type="number"
+						   id="lessonCode"
+						   name="lessonCode"
+						   placeholder="Lesson Code"
+						   asp-for="LessonCode"
+						   required
+						   value="10"
+						   min="10"
+						   max="99"
+						   oninput="limitLength(this) " />
+					<span asp-validation-for="LessonCode"></span>
+				</div>
+				
+				<div class="form-group">
+					<label for="name">LessonName</label>
+					<input class="data-input"
+						   type="text"
+						   id="lessonName"
+						   name="lessonName"
+						   placeholder="Lesson Name"
+						   asp-for="LessonName"
+						   required />
+					<span asp-validation-for="LessonName"></span>
+				</div>
+
+				<div class="form-group">
+					<label asp-for="SchoolClassId" class="control-label">Select Teacher</label>
+					<select class="data-input" asp-for="SchoolClassId" asp-items="Model.SchoolClassSelect" class="form-control">
+						<option value="">Select a Class</option>
+					</select>
+					<span asp-validation-for="SchoolClassId" class="text-danger"></span>
+				</div>
+			</div>
+
+			<button as type="submit">Submit</button>
+		</form>
+	</div>
+</section>
+
+@section Script {
+	<script src="~/assets/js/student-create.js"></script>
+	<script>
+		function limitLength(input) {
+			if (input.value.length > 2) {
+				input.value = input.value.slice(0, 2);
+			}
+		}
+	</script>
+}

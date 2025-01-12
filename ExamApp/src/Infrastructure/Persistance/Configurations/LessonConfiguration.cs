@@ -23,11 +23,6 @@ public class LessonConfiguration : BaseConfiguration<Lesson>
                .HasColumnType("varchar")
                .HasMaxLength(30);
 
-        builder.HasOne(x => x.Teacher)
-               .WithMany(x => x.Lessons)
-               .HasForeignKey(x => x.TeacherId)
-               .OnDelete(DeleteBehavior.NoAction);
-
         builder.HasOne(x => x.SchoolClass)
                .WithMany(x => x.Lessons)
                .HasForeignKey(x => x.SchoolClassId)
