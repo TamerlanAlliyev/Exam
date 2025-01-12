@@ -21,3 +21,31 @@ The Mini School App is a project developed based on SOLID principles and impleme
 **Entity Framework Integration:**  
 - Database access and management were implemented using the Entity Framework Code-First approach.  
 - Optimized data queries were executed using LINQ.  
+
+
+**Usage Instructions**
+
+Follow the steps below to effectively use the Mini School App:
+
+Create a Teacher:
+
+Begin by creating a teacher profile in the system.
+Create a Class and Assign a Teacher:
+
+Add a new class and assign a teacher to it during the creation process.
+Create a Student and Assign to a Class:
+
+Register a new student and assign them to a specific class.
+The assigned teacher for the selected class will automatically be associated with the student.
+Create a Lesson and Assign to a Class:
+
+Add a lesson and link it to the relevant class.
+Announce an Exam for the Lesson:
+
+Create an exam for the lesson.
+The exam has two statuses:
+Pending (default status upon creation).
+Conducted (status changes after the exam is completed).
+Record Exam Results:
+
+Add the exam results for students, which will automatically update the exam status to Conducted.
