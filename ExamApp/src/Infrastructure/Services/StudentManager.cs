@@ -32,10 +32,10 @@ public class StudentManager : IStudentService
         return await _repository.GetAllAsync(null, "SchoolClass");
     }
 
-    public async Task<StudentVM> GetStudentAsync(int id)
+    public async Task<Student> GetStudentAsync(int id)
     {
         var s = await _repository.GetAsync(s => s.Id == id, "SchoolClass");
-        return _mapper.Map<StudentVM>(s);
+        return _mapper.Map<Student>(s);
     }
 
     public async Task DeleteStudentAsync(int id)

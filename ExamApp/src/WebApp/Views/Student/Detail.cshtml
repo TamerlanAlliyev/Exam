@@ -1,5 +1,5 @@
-﻿@using ExamApp.Application.ViewModels.Student
-@model StudentVM
+﻿@using ExamApp.Domain.Entities
+@model Student
 
 
 @section Style {
@@ -9,7 +9,7 @@
 <section class="student-detail">
 
     <div class="header">
-        <h3>School Teacher</h3>
+        <h3>Student: @(Model.Name + " " + Model.Surname)</h3>
         <a style="background:#062556" asp-action="Index"><i class="fa-solid fa-arrow-left"></i> Back</a>
 
     </div>
@@ -39,7 +39,7 @@
 
          <div class="info">
                 <p class="label">Class:</p>
-                <p class="value">@Model.Class</p>
+                <p class="value">@Model.SchoolClass.Class</p>
             </div> 
 
         </div>

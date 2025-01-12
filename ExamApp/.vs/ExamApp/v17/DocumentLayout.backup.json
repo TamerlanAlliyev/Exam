@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\\u0130ntervu\\project\\exam program\\examapp\\src\\webapp\\views\\student\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\views\\student\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Views\\Student\\Detail.cshtml",
+              "RelativeDocumentMoniker": "src\\WebApp\\Views\\Student\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\\u0130ntervu\\Project\\Exam program\\ExamApp\\src\\WebApp\\Views\\Student\\Detail.cshtml",
+              "RelativeToolTip": "src\\WebApp\\Views\\Student\\Detail.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T10:10:23.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
