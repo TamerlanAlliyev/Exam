@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|c:\\users\\g713rw\\onedrive\\desktop\\exam\\examapp\\src\\application\\services\\ischoolclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\ischoolclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\g713rw\\onedrive\\desktop\\exam\\examapp\\src\\infrastructure\\services\\schoolclassmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\schoolclassmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\exam\\examapp\\src\\webapp\\views\\schoolclass\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\views\\schoolclass\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\exam\\examapp\\src\\webapp\\controllers\\schoolclasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\controllers\\schoolclasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\exam\\examapp\\src\\webapp\\views\\schoolclass\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\views\\schoolclass\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\g713rw\\onedrive\\desktop\\exam\\examapp\\src\\infrastructure\\services\\schoolclassmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\schoolclassmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\g713rw\\onedrive\\desktop\\exam\\examapp\\src\\infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|c:\\users\\g713rw\\onedrive\\desktop\\exam\\examapp\\src\\application\\services\\ischoolclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\ischoolclassservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\Views\\SchoolClass\\Detail.cshtml",
               "RelativeDocumentMoniker": "src\\WebApp\\Views\\SchoolClass\\Detail.cshtml",
               "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\Views\\SchoolClass\\Detail.cshtml",
               "RelativeToolTip": "src\\WebApp\\Views\\SchoolClass\\Detail.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAE8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-13T07:23:33.166Z",
               "IsPinned": true,
@@ -44,39 +48,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ISchoolClassService.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Application\\Services\\ISchoolClassService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\ISchoolClassService.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Application\\Services\\ISchoolClassService.cs*",
-              "RelativeToolTip": "src\\Application\\Services\\ISchoolClassService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAIA6wC0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T07:40:13.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T07:40:34.193Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SchoolClassManager.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Infrastructure\\Services\\SchoolClassManager.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\SchoolClassManager.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Infrastructure\\Services\\SchoolClassManager.cs*",
-              "RelativeToolTip": "src\\Infrastructure\\Services\\SchoolClassManager.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ISchoolClassService.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Application\\Services\\ISchoolClassService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\ISchoolClassService.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Application\\Services\\ISchoolClassService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\ISchoolClassService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T07:20:56.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T07:40:13.129Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SchoolClassManager.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Infrastructure\\Services\\SchoolClassManager.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\SchoolClassManager.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Infrastructure\\Services\\SchoolClassManager.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Services\\SchoolClassManager.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAWwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T07:20:56.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SchoolClassController.cs",
               "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\Controllers\\SchoolClassController.cs",
               "RelativeDocumentMoniker": "src\\WebApp\\Controllers\\SchoolClassController.cs",
               "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\Controllers\\SchoolClassController.cs",
               "RelativeToolTip": "src\\WebApp\\Controllers\\SchoolClassController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAwF0AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwFIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T07:20:38.438Z",
               "EditorCaption": ""
