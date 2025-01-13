@@ -2,168 +2,323 @@
 @model ExamResultVM
 
 @section Style {
-	<link rel="stylesheet" href="~/assets/css/student-detail.css" />
-	<link rel="stylesheet" href="~/assets/css/student-create.css" />
+    <link rel="stylesheet" href="~/assets/css/student-detail.css" />
+    <link rel="stylesheet" href="~/assets/css/student-create.css" />
 }
+
 <section class="student-detail">
+    <div class="header">
+        <h3>Exam: @(Model.LessonName) Lesson</h3>
+        <a style="background:#062556" asp-controller="Exam" asp-action="Index">
+            <i class="fa-solid fa-arrow-left"></i> Back
+        </a>
+    </div>
 
-	<div class="header">
-		<h3>Exam: @(Model.Exam.Lesson.LessonName)</h3>
-		<a style="background:#062556" asp-controller="Exam" asp-action="Index"><i class="fa-solid fa-arrow-left"></i> Back</a>
-	</div>
-
-	<div class="student container">
-
-		<div class="student-info">
-			<div class="info">
-				<p class="label">Lesson Name:</p>
-				<p class="value">@Model.Exam.Lesson.LessonName</p>
-			</div>
-			<div class="info">
-				<p class="label">Lesson Code:</p>
-				<p class="value">@Model.Exam.Lesson.LessonCode</p>
-			</div>
-
-			<div class="info">
-				<p class="label">Class Number:</p>
-				<p class="value">@Model.Exam.Lesson.SchoolClass.Class</p>
-			</div>
-
-
-			<div class="info">
-				<p class="label">Teacher:</p>
-				<p class="value">@(Model.Exam.Lesson.SchoolClass.Teacher.Name + " " + Model.Exam.Lesson.SchoolClass.Teacher.Surname)</p>
-			</div>
-
-			<div class="info">
-				<p class="label">Student Count:</p>
-				<p class="value">@(Model.Exam.Lesson.SchoolClass.Students?.Count() ?? 0)</p>
-			</div>
-
-			<div class="info">
-				<p class="label">Exam Date:</p>
-				<p class="value">@(Model.Exam.Date)</p>
-			</div>
-
-		</div>
-
-	</div>
-
-
+    <div class="student container">
+        <div class="student-info">
+            <div class="info">
+                <p class="label">Lesson Name:</p>
+                <p class="value">@Model.LessonName</p>
+            </div>
+            <div class="info">
+                <p class="label">Lesson Code:</p>
+                <p class="value">@Model.LessonCode</p>
+            </div>
+            <div class="info">
+                <p class="label">Class Number:</p>
+                <p class="value">@Model.ClassNumber</p>
+            </div>
+            <div class="info">
+                <p class="label">Teacher:</p>
+                <p class="value">@(Model.TeacherFullName)</p>
+            </div>
+            <div class="info">
+                <p class="label">Student Count:</p>
+                <p class="value">@(Model.StudentCount)</p>
+            </div>
+            <div class="info">
+                <p class="label">Exam Date:</p>
+                <p class="value">@(Model.Date)</p>
+            </div>
+        </div>
+    </div>
 </section>
-
-
 
 <section class="SchoolClass">
-	<div class="header">
-		<h3>Students</h3>
-	</div>
+    <div class="header">
+        <h3>Students</h3>
+    </div>
 
-	<form method="post" class="table container">
-		<div class="search-box">
-			<input type="text" id="search" placeholder="Search..." />
-		</div>
+    <!-- Form -->
+    <form asp-action="Create" method="post" class="table container">
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search..." />
+        </div>
+        <input type="hidden" value="@Model.ExamId"  asp-for="@Model.ExamId" />
 
-		<table>
-			<thead>
-				<tr>
-					<th>Student Number</th>
-					<th>Student Full Name</th>
-					<th>Lesson Average</th>
-					<th>Exam Result</th>
-				</tr>
-			</thead>
-			<tbody id="table-body">
-				@if (Model.ExamResultStudents != null)
-				{
-					@foreach (var student in Model.ExamResultStudents)
-					{
-						<tr>
-							<td>@student.StudentNumber</td>
-							<td>@(student.StudentFullName)</td>
-							<td class="form-group">
-								<input style="width:90%" class="data-input"
-									   type="number"
-									   id="class"
-									   placeholder="Lesson Average"
-									   asp-for="@student.LessonAverage"
-									   required
-									   max="100"
-									   oninput="limitLength(this) " />
-								<span asp-validation-for="@student.LessonAverage"></span>
-							</td>
-							<td class="form-group">
-								<input style="width:90%" class="data-input"
-									   type="number"
-									   id="class"
-									   placeholder="Exam Result"
-									   asp-for="@student.ExamRes"
-									   required
-									   max="100"
-									   oninput="limitLength(this) " />
-								<span asp-validation-for="@student.ExamRes"></span>
-							</td>
-							
-						</tr>
-					}
-				}
-			</tbody>
-		</table>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student Number</th>
+                    <th>Student Full Name</th>
+                    <th>Lesson Average</th>
+                    <th>Exam Result</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                @if (Model.ExamResultStudents != null)
+                {
+                    @for (int i = 0; i < Model.ExamResultStudents.Count; i++)
+                    {
+                        <tr>
+                            <td>
+                                @Model.ExamResultStudents[i].StudentNumber
+                                <input type="hidden" asp-for="@Model.ExamResultStudents[i].StudentNumber" />
+                                <input type="hidden" asp-for="@Model.ExamResultStudents[i].StudentId" />
+                            </td>
+                            <td>
+                                @Model.ExamResultStudents[i].StudentFullName
+                                <input type="hidden" asp-for="@Model.ExamResultStudents[i].StudentFullName" />
+                            </td>
+                            <td class="form-group">
+                                <input style="width:90%" class="data-input"
+                                       type="number"
+                                       asp-for="@Model.ExamResultStudents[i].LessonAverage"
+                                       placeholder="Exam Result"
+                                       required
+                                       max="100"
+                                       oninput="limitLength(this) "  />
+                                <span asp-validation-for="@Model.ExamResultStudents[i].LessonAverage"></span>
+                            </td>
+                            <td class="form-group">
+                                <input style="width:90%" class="data-input"
+                                       type="number"
+                                       asp-for="@Model.ExamResultStudents[i].ExamRes"
+                                       placeholder="Exam Result"
+                                       required
+                                       max="100"
+                                       oninput="limitLength(this)" />
+                                <span asp-validation-for="@Model.ExamResultStudents[i].ExamRes"></span>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
 
-		<div class="pagination">
-			<button class="page-btn" id="prev-btn">
-				<i class="fa-solid fa-angle-left"></i>
-			</button>
-			<span id="page-numbers"></span>
-			<button class="page-btn" id="next-btn">
-				<i class="fa-solid fa-angle-right"></i>
-			</button>
-		</div>
-		<button>Submit</button>
-	</form>
+        <div class="pagination">
+            <button class="page-btn" id="prev-btn">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <span id="page-numbers"></span>
+            <button class="page-btn" id="next-btn">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
 </section>
 
+@section Script {
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        $(document).on("click", ".delete-button", function(e) {
+            e.preventDefault();
+            let url = $(this).attr("href");
+
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You won't be able to revert this!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, delete it!"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire({
+                        title: "Deleted!",
+                        text: "Your file has been deleted.",
+                        icon: "success"
+                    }).then(() => {
+                        window.location.href = url;
+                    });
+                }
+            });
+        });
+
+        function limitLength(input) {
+            if (input.value.length > 3) {
+                input.value = input.value.slice(0, 3);
+            }
+            if (input.value > 100) {
+                input.value = 100;
+            }
+        }
+    </script>
+}
+
+
+@*                         @using ExamApp.Application.ViewModels.ExamResul
+@model ExamResultVM
+
+@section Style {
+    <link rel="stylesheet" href="~/assets/css/student-detail.css" />
+    <link rel="stylesheet" href="~/assets/css/student-create.css" />
+}
+
+<section class="student-detail">
+    <div class="header">
+        <h3>Exam: @(Model.Exam.Lesson.LessonName) Lesson</h3>
+        <a style="background:#062556" asp-controller="Exam" asp-action="Index">
+            <i class="fa-solid fa-arrow-left"></i> Back
+        </a>
+    </div>
+
+    <div class="student container">
+        <div class="student-info">
+            <div class="info">
+                <p class="label">Lesson Name:</p>
+                <p class="value">@Model.Exam.Lesson.LessonName</p>
+            </div>
+            <div class="info">
+                <p class="label">Lesson Code:</p>
+                <p class="value">@Model.Exam.Lesson.LessonCode</p>
+            </div>
+            <div class="info">
+                <p class="label">Class Number:</p>
+                <p class="value">@Model.Exam.Lesson.SchoolClass.Class</p>
+            </div>
+            <div class="info">
+                <p class="label">Teacher:</p>
+                <p class="value">@(Model.Exam.Lesson.SchoolClass.Teacher.Name + " " + Model.Exam.Lesson.SchoolClass.Teacher.Name)</p>
+            </div>
+            <div class="info">
+                <p class="label">Student Count:</p>
+                <p class="value">@(Model.Exam.Lesson.SchoolClass.Students.Count())</p>
+            </div>
+            <div class="info">
+                <p class="label">Exam Date:</p>
+                <p class="value">@(Model.Exam.Date)</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="SchoolClass">
+    <div class="header">
+        <h3>Students</h3>
+    </div>
+
+    <!-- Form -->
+    <form asp-action="Create" method="post" class="table container">
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search..." />
+        </div>
+        <input type="hidden" name="Exam.Id" value="@Model.Exam.Id" />
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Student Number</th>
+                    <th>Student Full Name</th>
+                    <th>Lesson Average</th>
+                    <th>Exam Result</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                @if (Model.ExamResultStudents != null)
+                {
+                    @for (int i = 0; i < Model.ExamResultStudents.Count; i++)
+                    {
+                        <tr>
+                            <td>
+                                @Model.ExamResultStudents[i].StudentNumber
+                                <input type="hidden" asp-for="@Model.ExamResultStudents[i].StudentNumber" />
+                            </td>
+                            <td>
+                                @Model.ExamResultStudents[i].StudentFullName
+                                <input type="hidden" asp-for="@Model.ExamResultStudents[i].StudentFullName" />
+                            </td>
+                            <td class="form-group">
+                                <input style="width:90%" class="data-input"
+                                       type="number"
+                                       asp-for="@Model.ExamResultStudents[i].ExamRes"
+                                       placeholder="Exam Result"
+                                       required
+                                       max="100"
+                                       oninput="limitLength(this) " />
+                                <span asp-validation-for="@Model.ExamResultStudents[i].LessonAverage"></span>
+                            </td>
+                            <td class="form-group">
+                                <input style="width:90%" class="data-input"
+                                       type="number"
+                                       asp-for="@Model.ExamResultStudents[i].ExamRes"
+                                       placeholder="Exam Result"
+                                       required
+                                       max="100"
+                                       oninput="limitLength(this)" />
+                                <span asp-validation-for="@Model.ExamResultStudents[i].ExamRes"></span>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+
+        <div class="pagination">
+            <button class="page-btn" id="prev-btn">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <span id="page-numbers"></span>
+            <button class="page-btn" id="next-btn">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</section>
 
 @section Script {
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-	<script>
-				$(document).on("click", ".delete-button", function(e) {
-			e.preventDefault();
-			let url = $(this).attr("href");
+    <script>
+        $(document).on("click", ".delete-button", function(e) {
+            e.preventDefault();
+            let url = $(this).attr("href");
 
-			Swal.fire({
-				title: "Are you sure?",
-				text: "You won't be able to revert this!",
-				icon: "warning",
-				showCancelButton: true,
-				confirmButtonColor: "#3085d6",
-				cancelButtonColor: "#d33",
-				confirmButtonText: "Yes, delete it!"
-			}).then((result) => {
-				if (result.isConfirmed) {
-					Swal.fire({
-						title: "Deleted!",
-						text: "Your file has been deleted.",
-						icon: "success"
-					}).then(() => {
-						window.location.href = url;
-					});
-				}
-			});
-		});
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You won't be able to revert this!",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes, delete it!"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire({
+                        title: "Deleted!",
+                        text: "Your file has been deleted.",
+                        icon: "success"
+                    }).then(() => {
+                        window.location.href = url;
+                    });
+                }
+            });
+        });
 
-	</script>
-
-	<script>
-		function limitLength(input) {
-			if (input.value.length > 3) {
-				input.value = input.value.slice(0, 3);
-			}
-			if(input.value>100){
-				input.value=100
-			}
-		}
-	</script>
+        function limitLength(input) {
+            if (input.value.length > 3) {
+                input.value = input.value.slice(0, 3);
+            }
+            if (input.value > 100) {
+                input.value = 100;
+            }
+        }
+    </script>
 }
+ *@

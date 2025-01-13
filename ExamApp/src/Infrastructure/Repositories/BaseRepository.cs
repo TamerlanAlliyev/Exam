@@ -63,4 +63,10 @@ public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : 
                await entity.ToListAsync() :
                await entity.Where(expression).ToListAsync();
     }
+
+    public async Task UpdateAsync(TEntity entity)
+    {
+        _context.Set<TEntity>().Update(entity);
+        await _context.SaveChangesAsync();
+    }
 }

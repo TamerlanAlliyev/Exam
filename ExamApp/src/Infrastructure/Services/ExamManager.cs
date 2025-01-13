@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+using DocumentFormat.OpenXml.Bibliography;
 using Domain.Entities;
 using ExamApp.Application.Repositories;
 using ExamApp.Application.Services;
@@ -55,7 +56,14 @@ public class ExamManager : IExamService
 
         ExamResultVM examResult = new ExamResultVM()
         {
-            Exam = exam,
+            ExamId = exam.Id,
+            LessonName=exam.Lesson.LessonName,
+            LessonCode = exam.Lesson.LessonCode,
+            ClassNumber = exam.Lesson.SchoolClass.Class,
+            TeacherFullName = exam.Lesson.SchoolClass.Teacher.Name+" "+ exam.Lesson.SchoolClass.Teacher.Name,
+            StudentCount = exam.Lesson.SchoolClass.Students.Count(),
+            Date = exam.Date,   
+
             ExamResultStudents = vm
         };
 
@@ -75,4 +83,30 @@ public class ExamManager : IExamService
     {
         return await _repository.SelectionLessonAsync();
     }
+
+
+
+    public async Task CreateExamResult(ExamResultVM vm)
+    {
+        List<ExamResult> examResults = new List<ExamResult>();
+
+        foreach (var result in vm.ExamResultStudents!)
+        {
+            examResults.Add(new ExamResult
+            {
+                LessonAverage = result.LessonAverage,
+                ExamRes = result.ExamRes,
+                Average = (result.LessonAverage + result.ExamRes) / 2,
+                ExamId = vm.ExamId,
+                StudentId = result.StudentId,
+            });
+        }
+        Exam? ex = await _repository.GetAsync(vm.ExamId);
+
+        ex.Status = true;
+        ex.ClassAverage = examResults.Sum(x => x.Average) / examResults.Count();
+
+        await _repository.CreateRangeAsync(examResults);
+    }
+
 }

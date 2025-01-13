@@ -39,7 +39,6 @@ public class ExamController : Controller
         {
             return View("Error404");
         }
-
     }
 
     [HttpPost]
@@ -67,5 +66,10 @@ public class ExamController : Controller
         {
             return View("Error404");
         }
+    }
+
+    public async Task<IActionResult> Detail(int id)
+    {
+        return View(await _service.GetIncludeAsync(id));
     }
 }

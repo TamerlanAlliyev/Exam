@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\homework\\exam\\examapp\\src\\webapp\\views\\examresult\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\views\\examresult\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\homework\\exam\\examapp\\src\\webapp\\views\\exam\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\views\\exam\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\homework\\exam\\examapp\\src\\webapp\\controllers\\examresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\controllers\\examresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|c:\\users\\g713rw\\onedrive\\desktop\\homework\\exam\\examapp\\src\\application\\viewmodels\\examresul\\examresultvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|solutionrelative:src\\application\\viewmodels\\examresul\\examresultvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|c:\\users\\g713rw\\onedrive\\desktop\\homework\\exam\\examapp\\src\\application\\viewmodels\\examresul\\examresultcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|solutionrelative:src\\application\\viewmodels\\examresul\\examresultcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|c:\\users\\g713rw\\onedrive\\desktop\\homework\\exam\\examapp\\src\\webapp\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E758B92-0B61-41D5-987E-04E642FC09E3}|src\\WebApp\\WebApp.csproj|solutionrelative:src\\webapp\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\g713rw\\onedrive\\desktop\\homework\\exam\\examapp\\src\\infrastructure\\services\\exammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\exammanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|c:\\users\\g713rw\\onedrive\\desktop\\homework\\exam\\examapp\\src\\application\\services\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE5504E-6CB4-4E16-AE6D-6C43E90D8A54}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\g713rw\\onedrive\\desktop\\homework\\exam\\examapp\\src\\infrastructure\\repositories\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F6E392-F550-459F-8922-1EF485FF644F}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\repositories\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExamResultController.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\Controllers\\ExamResultController.cs",
-              "RelativeDocumentMoniker": "src\\WebApp\\Controllers\\ExamResultController.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\Controllers\\ExamResultController.cs",
-              "RelativeToolTip": "src\\WebApp\\Controllers\\ExamResultController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:17:40.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IExamService.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\Application\\Services\\IExamService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\IExamService.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\Application\\Services\\IExamService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\IExamService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:17:27.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ExamResultVM.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\Application\\ViewModels\\ExamResul\\ExamResultVM.cs",
-              "RelativeDocumentMoniker": "src\\Application\\ViewModels\\ExamResul\\ExamResultVM.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\Application\\ViewModels\\ExamResul\\ExamResultVM.cs",
-              "RelativeToolTip": "src\\Application\\ViewModels\\ExamResul\\ExamResultVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:15:37.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExamResultCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\Application\\ViewModels\\ExamResul\\ExamResultCreateVM.cs",
-              "RelativeDocumentMoniker": "src\\Application\\ViewModels\\ExamResul\\ExamResultCreateVM.cs",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\Application\\ViewModels\\ExamResul\\ExamResultCreateVM.cs",
-              "RelativeToolTip": "src\\Application\\ViewModels\\ExamResul\\ExamResultCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:11:13.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ExamManager.cs",
               "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\Infrastructure\\Services\\ExamManager.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\ExamManager.cs",
               "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\Infrastructure\\Services\\ExamManager.cs",
               "RelativeToolTip": "src\\Infrastructure\\Services\\ExamManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAnwCQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:08:14.741Z",
+              "WhenOpened": "2025-01-13T19:50:22.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\Infrastructure\\Repositories\\ExamRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Repositories\\ExamRepository.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\Infrastructure\\Repositories\\ExamRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Repositories\\ExamRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:36:49.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\Views\\ExamResult\\Detail.cshtml",
-              "RelativeDocumentMoniker": "src\\WebApp\\Views\\ExamResult\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\Views\\ExamResult\\Detail.cshtml",
-              "RelativeToolTip": "src\\WebApp\\Views\\ExamResult\\Detail.cshtml",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\Views\\Exam\\Detail.cshtml",
+              "RelativeDocumentMoniker": "src\\WebApp\\Views\\Exam\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\Views\\Exam\\Detail.cshtml",
+              "RelativeToolTip": "src\\WebApp\\Views\\Exam\\Detail.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwEUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T12:50:01.819Z",
+              "WhenOpened": "2025-01-13T19:33:24.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "src\\WebApp\\Controllers\\ExamController.cs",
+              "ToolTip": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "src\\WebApp\\Controllers\\ExamController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAewEcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T19:31:24.519Z",
               "EditorCaption": ""
             }
           ]

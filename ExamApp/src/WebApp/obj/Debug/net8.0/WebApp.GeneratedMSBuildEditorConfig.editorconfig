@@ -20,16 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/G713RW/OneDrive/Desktop/HomeWork/Exam/ExamApp/src/WebApp/Views/ExamResult/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVJlc3VsdFxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/G713RW/OneDrive/Desktop/HomeWork/Exam/ExamApp/src/WebApp/Views/ExamResult/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVJlc3VsdFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/G713RW/OneDrive/Desktop/HomeWork/Exam/ExamApp/src/WebApp/Views/Exam/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/G713RW/OneDrive/Desktop/HomeWork/Exam/ExamApp/src/WebApp/Views/Exam/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/G713RW/OneDrive/Desktop/HomeWork/Exam/ExamApp/src/WebApp/Views/Exam/Index.cshtml]

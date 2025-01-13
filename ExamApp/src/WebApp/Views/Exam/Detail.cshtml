@@ -1,0 +1,117 @@
+﻿@model Exam
+
+@section Style {
+	<link rel="stylesheet" href="~/assets/css/student-detail.css" />
+
+}
+<section class="student-detail">
+
+	<div class="header">
+		<h3>Exam Result</h3>
+		<a style="background:#062556" asp-action="Index"><i class="fa-solid fa-arrow-left"></i> Back</a>
+
+	</div>
+
+	<div class="student container">
+
+
+		<div class="student-info">
+
+			<div class="info">
+				<p class="label">Exam:</p>
+				<p class="value">@Model.Date</p>
+			</div>
+
+			<div class="info">
+				<p class="label">Lesson Code:</p>
+				<p class="value">@Model.Lesson.LessonCode</p>
+			</div>
+
+			<div class="info">
+				<p class="label">Lesson Name:</p>
+				<p class="value">@Model.Lesson.LessonName</p>
+			</div>
+
+			<div class="info">
+				<p class="label">Date:</p>
+				<p class="value">@Model.Date</p>
+			</div>
+
+			<div class="info">
+				<p class="label">Class:</p>
+				<p class="value">@Model.Lesson.SchoolClass.Class</p>
+			</div>
+
+			<div class="info">
+				<p class="label">Teacher:</p>
+				<p class="value">@(Model.Lesson.SchoolClass.Teacher.Name + " " + Model.Lesson.SchoolClass.Teacher.Surname)</p>
+			</div>
+
+			<div class="info">
+				<p class="label">Student Count:</p>
+				<p class="value">@Model.Lesson.SchoolClass.Students!.Count()</p>
+			</div>
+
+			<div class="info">
+				<p class="label">Class Average:</p>
+				<p class="value">@Model.ClassAverage</p>
+			</div>
+
+		</div>
+
+	</div>
+
+
+</section>
+
+<section class="SchoolClass">
+	<div class="header">
+		<h3>Students</h3>
+		<h4>Class Average: @Model.ClassAverage</h4>
+	</div>
+
+	<div class="table container">
+		<div class="search-box">
+			<input type="text" id="search" placeholder="Search..." />
+		</div>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Student Number</th>
+					<th>Student Full Name</th>
+					<th>Lesson Average</th>
+					<th>Exam Result</th>
+					<th>Final Result</th>
+				</tr>
+			</thead>
+			<tbody id="table-body">
+				@if (Model.ExamResult != null)
+				{
+
+					@foreach (var student in Model.ExamResult)
+					{
+						<tr>
+							<td>@student.Student.Number</td>
+							<td>@student.Student.Name @student.Student.Surname</td>
+							<td>@student.LessonAverage</td>
+							<td>@student.ExamRes</td>
+							<td>@student.Average</td>
+						</tr>
+					}
+				}
+
+			</tbody>
+		</table>
+
+		<div class="pagination">
+			<button class="page-btn" id="prev-btn">
+				<i class="fa-solid fa-angle-left"></i>
+			</button>
+			<span id="page-numbers"></span>
+			<button class="page-btn" id="next-btn">
+				<i class="fa-solid fa-angle-right"></i>
+			</button>
+		</div>
+	</div>
+</section>

@@ -19,4 +19,5 @@ public interface IExamService
     Task DeleteExamAsync(int id);
     Task<Exam> GetIncludeAsync(int id);
     Task<ExamResultVM> GetExamResltIncludeAsync(int id);
+    Task CreateExamResult(ExamResultVM vm);
 }
