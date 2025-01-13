@@ -182,6 +182,9 @@ namespace ExamApp.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("ExamResultId")
+                        .HasColumnType("int");
+
                     b.Property<string>("ImageURL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -204,30 +207,14 @@ namespace ExamApp.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ExamResultId");
+
                     b.HasIndex("Number")
                         .IsUnique();
 
                     b.HasIndex("SchoolClassId");
 
                     b.ToTable("Students");
-                });
-
-            modelBuilder.Entity("ExamApp.Domain.Entities.StudentExamResult", b =>
-                {
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ExamResultId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("StudentId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ExamResultId");
-
-                    b.ToTable("StudentExamResult");
                 });
 
             modelBuilder.Entity("Domain.Entities.SchoolClass", b =>
@@ -280,32 +267,19 @@ namespace ExamApp.Infrastructure.Migrations
 
             modelBuilder.Entity("ExamApp.Domain.Entities.Student", b =>
                 {
+                    b.HasOne("ExamApp.Domain.Entities.ExamResult", "ExamResult")
+                        .WithMany("Students")
+                        .HasForeignKey("ExamResultId");
+
                     b.HasOne("Domain.Entities.SchoolClass", "SchoolClass")
                         .WithMany("Students")
                         .HasForeignKey("SchoolClassId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("SchoolClass");
-                });
-
-            modelBuilder.Entity("ExamApp.Domain.Entities.StudentExamResult", b =>
-                {
-                    b.HasOne("ExamApp.Domain.Entities.ExamResult", "ExamResult")
-                        .WithMany("ExamResults")
-                        .HasForeignKey("ExamResultId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ExamApp.Domain.Entities.Student", "Student")
-                        .WithMany("ExamResults")
-                        .HasForeignKey("Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("ExamResult");
 
-                    b.Navigation("Student");
+                    b.Navigation("SchoolClass");
                 });
 
             modelBuilder.Entity("Domain.Entities.SchoolClass", b =>
@@ -329,17 +303,12 @@ namespace ExamApp.Infrastructure.Migrations
 
             modelBuilder.Entity("ExamApp.Domain.Entities.ExamResult", b =>
                 {
-                    b.Navigation("ExamResults");
+                    b.Navigation("Students");
                 });
 
             modelBuilder.Entity("ExamApp.Domain.Entities.Lesson", b =>
                 {
                     b.Navigation("Exam");
-                });
-
-            modelBuilder.Entity("ExamApp.Domain.Entities.Student", b =>
-                {
-                    b.Navigation("ExamResults");
                 });
 #pragma warning restore 612, 618
         }

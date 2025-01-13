@@ -10082,11 +10082,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\G713RW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10107,8 +10107,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\Application\\Application.csproj"
+            "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Application\\Application.csproj"
             }
           }
         }

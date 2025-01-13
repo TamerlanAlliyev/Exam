@@ -15,6 +15,5 @@ public class ExamResult : BaseEntity
 
     public int ExamId { get; set; }
     public Exam Exam { get; set; } = null!;
-
-    public ICollection<StudentExamResult> ExamResults { get; set; } = new List<StudentExamResult>();
+    public List<Student>? Students { get; set; }
 }

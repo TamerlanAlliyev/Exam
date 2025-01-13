@@ -14,7 +14,7 @@ public interface ISchoolClassService
 {
     Task CreateSchoolClassAsync(SchoolClassVM vm);
     Task<List<SchoolClass>> GetAllSchoolClassAsync();
-    Task<SchoolClassVM> GetSchoolClassAsync(int id);
+    Task<SchoolClass> GetSchoolClassAsync(int id);
     Task DeleteSchoolClassAsync(int id);
     Task<IEnumerable<SelectListItem>> GetSelectionTeacher();
 }

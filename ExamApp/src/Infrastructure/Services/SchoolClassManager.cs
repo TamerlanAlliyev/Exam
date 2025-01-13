@@ -9,6 +9,8 @@ using ExamApp.Application.Repositories;
 using ExamApp.Application.Services;
 using ExamApp.Application.ViewModels.SchoolClass;
 using ExamApp.Application.ViewModels.Teacher;
+using ExamApp.Domain.Entities;
+using ExamApp.Infrastructure.Migrations;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Hosting;
@@ -37,10 +39,9 @@ public class SchoolClassManager : ISchoolClassService
         return await _repository.GetAllAsync(null, "Teacher", "Students");
     }
 
-    public async Task<SchoolClassVM> GetSchoolClassAsync(int id)
+    public async Task<SchoolClass> GetSchoolClassAsync(int id)
     {
-        SchoolClass? schoolClass = await _repository.GetAsync(id);
-        return _mapper.Map<SchoolClassVM>(schoolClass);
+        return _mapper.Map<SchoolClass>(await _repository.GetAsync(x => x.Id == id, nameof(Students), nameof(Teacher)));
     }
 
     public async Task DeleteSchoolClassAsync(int id)

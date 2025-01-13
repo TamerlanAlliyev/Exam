@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Users\G713RW\OneDrive\Desktop\İntervu\Project\Exam program\ExamApp\src\WebApp\
+build_property.ProjectDir = C:\Users\G713RW\OneDrive\Desktop\Exam\ExamApp\src\WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\G713RW\OneDrive\Desktop\İntervu\Project\Exam program\ExamApp\src\WebApp
+build_property.MSBuildProjectDirectory = C:\Users\G713RW\OneDrive\Desktop\Exam\ExamApp\src\WebApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Exam/Create.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Exam/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Exam/Index.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Exam/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Lesson/Create.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Lesson/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Lesson/Detail.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Lesson/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Lesson/Index.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Lesson/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/SchoolClass/Create.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/SchoolClass/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sQ2xhc3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/SchoolClass/Detail.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/SchoolClass/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sQ2xhc3NcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/SchoolClass/Index.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/SchoolClass/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sQ2xhc3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Shared/Error404.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Shared/Error404.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yNDA0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Student/Create.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Student/Detail.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Student/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Student/Index.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Teacher/Create.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Teacher/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Teacher/Detail.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Teacher/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Teacher/Index.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Teacher/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/_ViewImports.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/_ViewStart.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/G713RW/OneDrive/Desktop/İntervu/Project/Exam program/ExamApp/src/WebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/G713RW/OneDrive/Desktop/Exam/ExamApp/src/WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7882z672yd

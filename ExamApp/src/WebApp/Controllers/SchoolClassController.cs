@@ -3,6 +3,7 @@ using Domain.Entities;
 using ExamApp.Application.Repositories;
 using ExamApp.Application.Services;
 using ExamApp.Application.ViewModels.SchoolClass;
+using ExamApp.Infrastructure.Migrations;
 using ExamApp.Infrastructure.Services;
 using Infrastructure.Persistance;
 using Microsoft.AspNetCore.Mvc;
@@ -13,12 +14,10 @@ namespace WebApp.Controllers;
 
 public class SchoolClassController : Controller
 {
-    private readonly ApplicationDbContext _context;
     private readonly IMapper _mapper;
     private readonly ISchoolClassService _service;
-    public SchoolClassController(ApplicationDbContext context, IMapper mapper, ISchoolClassService service)
+    public SchoolClassController( IMapper mapper, ISchoolClassService service)
     {
-        _context = context;
         _mapper = mapper;
         _service = service;
     }
@@ -82,7 +81,7 @@ public class SchoolClassController : Controller
     {
         try
         {
-            return View(await _context.SchoolClasses.Include(x => x.Teacher).FirstOrDefaultAsync(x => x.Id == id));
+            return View(await _service.GetSchoolClassAsync(id));
         }
         catch (Exception ex)
         {

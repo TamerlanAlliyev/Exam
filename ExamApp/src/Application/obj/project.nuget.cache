@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V1uGQky1iG0=",
+  "dgSpecHash": "ZlM16A3Tjh8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\İntervu\\Project\\Exam program\\ExamApp\\src\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\G713RW\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\G713RW\\.nuget\\packages\\documentformat.openxml\\3.2.0\\documentformat.openxml.3.2.0.nupkg.sha512",

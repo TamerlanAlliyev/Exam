@@ -8,9 +8,10 @@ using Domain.Entities;
 
 namespace ExamApp.Domain.Entities;
 
-public class Student:BaseAuditableEntity
+public class Student : BaseAuditableEntity
 {
     public int SchoolClassId { get; set; }
     public SchoolClass SchoolClass { get; set; } = null!;
-    public ICollection<StudentExamResult> ExamResults { get; set; } = new List<StudentExamResult>();
+    public int? ExamResultId { get; set; }
+    public ExamResult? ExamResult { get; set; }
 }
