@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+using Domain.Entities;
 using ExamApp.Application.Repositories;
 using ExamApp.Application.Services;
 using ExamApp.Application.ViewModels.Exam;
+using ExamApp.Application.ViewModels.ExamResul;
 using ExamApp.Domain.Entities;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -27,13 +29,46 @@ public class ExamManager : IExamService
         var exam = await _repository.GetAllIncludeAsync();
         return exam;
     }
+
+    public async Task<Exam> GetIncludeAsync(int id)
+    {
+        return await _repository.GetIncludeAsync(id);
+    }
+    public async Task<ExamResultVM> GetExamResltIncludeAsync(int id)
+    {
+        Exam exam = await _repository.GetIncludeAsync(id);
+
+        List<ExamResultCreateVM> vm = new List<ExamResultCreateVM>();
+
+        if (exam?.Lesson.SchoolClass.Students!=null)
+        {
+            foreach (var item in exam.Lesson.SchoolClass.Students)
+            {
+                vm.Add(new ExamResultCreateVM
+                {
+                    StudentId = item.Id,
+                    StudentNumber = item.Number,
+                    StudentFullName = item.Name + " " +item.Surname,
+                });
+            }
+        }
+
+        ExamResultVM examResult = new ExamResultVM()
+        {
+            Exam = exam,
+            ExamResultStudents = vm
+        };
+
+        return examResult;
+    }
+
     public async Task DeleteExamAsync(int id)
     {
         await _repository.DeleteAsync(id);
     }
     public async Task CreateExamAsync(ExamCreateVM vm)
     {
-       await _repository.CreateAsync(_mapper.Map<Exam>(vm));
+        await _repository.CreateAsync(_mapper.Map<Exam>(vm));
     }
 
     public async Task<IEnumerable<SelectListItem>> GetSelectionLessonAsync()

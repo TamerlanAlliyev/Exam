@@ -12,5 +12,5 @@ public interface IExamRepository : IBaseRepository<Exam>
 {
     Task<IEnumerable<SelectListItem>> SelectionLessonAsync();
     Task<List<Exam>> GetAllIncludeAsync();
-
+    Task<Exam?> GetIncludeAsync(int id);
 }

@@ -27,8 +27,12 @@ public class ExamResultConfiguration : BaseConfiguration<ExamResult>
                .IsRequired(true);
 
         builder.HasOne(x=>x.Exam)
-               .WithOne(x=>x.ExamResult)
-               .HasForeignKey<ExamResult>(x=>x.ExamId);
+               .WithMany(x=>x.ExamResult)
+               .HasForeignKey(x=>x.ExamId);
+
+        builder.HasOne(x => x.Student)
+       .WithOne(x => x.ExamResult)
+       .HasForeignKey<ExamResult>(x => x.StudentId);
 
         base.Configure(builder);
     }

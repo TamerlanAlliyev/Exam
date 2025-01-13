@@ -29,6 +29,15 @@ public class ExamRepository : BaseRepository<Exam>, IExamRepository
                                    .ToListAsync();
     }
 
+    public async Task<Exam?> GetIncludeAsync(int id)
+    {
+        return await _context.Exams.Include(x => x.Lesson)
+                                   .ThenInclude(x => x.SchoolClass)
+                                   .ThenInclude(x => x.Students)
+                                   .Include(x => x.Lesson.SchoolClass.Teacher)
+                                   .FirstOrDefaultAsync(x => x.Id == id);
+    }
+
     public async Task<IEnumerable<SelectListItem>> SelectionLessonAsync()
     {
         return await _context.Lessons.Select(t => new SelectListItem

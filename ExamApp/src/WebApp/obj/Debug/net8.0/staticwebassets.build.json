@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kEiQzeG6h8OfauCp/g6XywHDVGGAG6DHklRSjeAFqUM=",
+  "Hash": "ki0ShGPT2sBtYV8ag5L18xhjKyeHhganTnCY8377hAI=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebApp\\wwwroot",
       "Source": "WebApp",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApp.styles.css",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApp.styles.css",
       "SourceId": "WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "WebApp#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "NHDagKxwSJBv79tsRBVd8ERlwnzqTOeSBctwcvTZyp8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
       "SourceId": "WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "WebApp#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "NHDagKxwSJBv79tsRBVd8ERlwnzqTOeSBctwcvTZyp8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\layout.css",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\layout.css",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/css/layout#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\layout.css"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-create.css",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-create.css",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/css/student-create#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\student-create.css"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-detail.css",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-detail.css",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/css/student-detail#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\student-detail.css"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\table.css",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\table.css",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/css/table#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\table.css"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\variables.css",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\variables.css",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/css/variables#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\variables.css"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\7d5743fe-27b2-4ed8-9482-fcb564a86478_6873424dc3b14b5d237ddf33d9e45f22.jpg",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\7d5743fe-27b2-4ed8-9482-fcb564a86478_6873424dc3b14b5d237ddf33d9e45f22.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/images/students/7d5743fe-27b2-4ed8-9482-fcb564a86478_6873424dc3b14b5d237ddf33d9e45f22#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\students\\7d5743fe-27b2-4ed8-9482-fcb564a86478_6873424dc3b14b5d237ddf33d9e45f22.jpg"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\94da81e4-90f3-409a-ae2e-80aa88ea1b82_23083696d4e1603f8477047b28ecac49.jpg",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\94da81e4-90f3-409a-ae2e-80aa88ea1b82_23083696d4e1603f8477047b28ecac49.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/images/students/94da81e4-90f3-409a-ae2e-80aa88ea1b82_23083696d4e1603f8477047b28ecac49#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\students\\94da81e4-90f3-409a-ae2e-80aa88ea1b82_23083696d4e1603f8477047b28ecac49.jpg"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\9debf1cf-2506-40eb-a3ee-bccb523bba9b_198d5b70498c3aa8fe3392ea353fce76.jpg",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\9debf1cf-2506-40eb-a3ee-bccb523bba9b_198d5b70498c3aa8fe3392ea353fce76.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/images/students/9debf1cf-2506-40eb-a3ee-bccb523bba9b_198d5b70498c3aa8fe3392ea353fce76#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\students\\9debf1cf-2506-40eb-a3ee-bccb523bba9b_198d5b70498c3aa8fe3392ea353fce76.jpg"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\a29df87c-94be-4d90-af00-4c20254f5cc2_7ca6d208a33bbe32d358ae6c7c8d1162.jpg",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\a29df87c-94be-4d90-af00-4c20254f5cc2_7ca6d208a33bbe32d358ae6c7c8d1162.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/images/students/a29df87c-94be-4d90-af00-4c20254f5cc2_7ca6d208a33bbe32d358ae6c7c8d1162#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\students\\a29df87c-94be-4d90-af00-4c20254f5cc2_7ca6d208a33bbe32d358ae6c7c8d1162.jpg"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\a88abfce-2d71-4f2b-905b-462c64194292_d8d87be0aba633245f6419a109c7b69f.jpg",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\a88abfce-2d71-4f2b-905b-462c64194292_d8d87be0aba633245f6419a109c7b69f.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/images/students/a88abfce-2d71-4f2b-905b-462c64194292_d8d87be0aba633245f6419a109c7b69f#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\students\\a88abfce-2d71-4f2b-905b-462c64194292_d8d87be0aba633245f6419a109c7b69f.jpg"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\b1eadfa6-324f-43f2-94a8-24d52a0696c3_3a5fcaabe1f0b0ee16e3c7e98b20b687.jpg",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\b1eadfa6-324f-43f2-94a8-24d52a0696c3_3a5fcaabe1f0b0ee16e3c7e98b20b687.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/images/students/b1eadfa6-324f-43f2-94a8-24d52a0696c3_3a5fcaabe1f0b0ee16e3c7e98b20b687#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\students\\b1eadfa6-324f-43f2-94a8-24d52a0696c3_3a5fcaabe1f0b0ee16e3c7e98b20b687.jpg"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\c00a177e-e82b-41e9-87f1-7d9596537ceb_bb434534242da6787df0f6e084b7b9a8.jpg",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\c00a177e-e82b-41e9-87f1-7d9596537ceb_bb434534242da6787df0f6e084b7b9a8.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/images/students/c00a177e-e82b-41e9-87f1-7d9596537ceb_bb434534242da6787df0f6e084b7b9a8#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\students\\c00a177e-e82b-41e9-87f1-7d9596537ceb_bb434534242da6787df0f6e084b7b9a8.jpg"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\cfa91850-a889-4476-8614-c51a00f1b0ca_49384cd7f447f3687ad3a4f8eb1cbbf3.jpg",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\cfa91850-a889-4476-8614-c51a00f1b0ca_49384cd7f447f3687ad3a4f8eb1cbbf3.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/images/students/cfa91850-a889-4476-8614-c51a00f1b0ca_49384cd7f447f3687ad3a4f8eb1cbbf3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\students\\cfa91850-a889-4476-8614-c51a00f1b0ca_49384cd7f447f3687ad3a4f8eb1cbbf3.jpg"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\d4bad6b0-8f3c-4a6a-8835-312f88e074c8_473ef8f2c793ceb738558b1d4fe9b43b.jpg",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\d4bad6b0-8f3c-4a6a-8835-312f88e074c8_473ef8f2c793ceb738558b1d4fe9b43b.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/images/students/d4bad6b0-8f3c-4a6a-8835-312f88e074c8_473ef8f2c793ceb738558b1d4fe9b43b#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\students\\d4bad6b0-8f3c-4a6a-8835-312f88e074c8_473ef8f2c793ceb738558b1d4fe9b43b.jpg"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\f442cf57-60fa-49b6-ba73-8d1809efe4cf_4824cc8044308ec23ed6e621dfd66627.jpg",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\f442cf57-60fa-49b6-ba73-8d1809efe4cf_4824cc8044308ec23ed6e621dfd66627.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/images/students/f442cf57-60fa-49b6-ba73-8d1809efe4cf_4824cc8044308ec23ed6e621dfd66627#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\students\\f442cf57-60fa-49b6-ba73-8d1809efe4cf_4824cc8044308ec23ed6e621dfd66627.jpg"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\9436e993-c5e9-4bfc-8c3f-63d85f37584e_d19bc84e1186706540fab2bf6b27c019.jpg",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\9436e993-c5e9-4bfc-8c3f-63d85f37584e_d19bc84e1186706540fab2bf6b27c019.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/images/teachers/9436e993-c5e9-4bfc-8c3f-63d85f37584e_d19bc84e1186706540fab2bf6b27c019#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\teachers\\9436e993-c5e9-4bfc-8c3f-63d85f37584e_d19bc84e1186706540fab2bf6b27c019.jpg"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\a117fe05-48e1-4a8d-9845-d0d805c1c68f_132bd2cac2bd085edbe74735d7ef71e1.jpg",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\a117fe05-48e1-4a8d-9845-d0d805c1c68f_132bd2cac2bd085edbe74735d7ef71e1.jpg",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/images/teachers/a117fe05-48e1-4a8d-9845-d0d805c1c68f_132bd2cac2bd085edbe74735d7ef71e1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\teachers\\a117fe05-48e1-4a8d-9845-d0d805c1c68f_132bd2cac2bd085edbe74735d7ef71e1.jpg"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\student-create.js",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\student-create.js",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/js/student-create#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\student-create.js"
     },
     {
-      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\table.js",
+      "Identity": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\table.js",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "assets/js/table#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -461,7 +461,7 @@
   "Endpoints": [
     {
       "Route": "assets/css/layout.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\layout.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\layout.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -482,7 +482,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -498,7 +498,7 @@
     },
     {
       "Route": "assets/css/layout.gqlbg5l6r8.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\layout.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\layout.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -519,7 +519,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -543,7 +543,7 @@
     },
     {
       "Route": "assets/css/student-create.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-create.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-create.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -564,7 +564,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -580,7 +580,7 @@
     },
     {
       "Route": "assets/css/student-create.v42lbm7l8o.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-create.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-create.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -601,7 +601,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -625,7 +625,7 @@
     },
     {
       "Route": "assets/css/student-detail.2j7fy3ls6s.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-detail.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-detail.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -646,7 +646,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -670,7 +670,7 @@
     },
     {
       "Route": "assets/css/student-detail.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-detail.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\student-detail.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -691,7 +691,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -707,7 +707,7 @@
     },
     {
       "Route": "assets/css/table.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\table.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\table.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -728,7 +728,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -744,7 +744,7 @@
     },
     {
       "Route": "assets/css/table.mqvbmo14it.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\table.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\table.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -765,7 +765,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -789,7 +789,7 @@
     },
     {
       "Route": "assets/css/variables.3tptrzezpp.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\variables.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\variables.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -810,7 +810,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -834,7 +834,7 @@
     },
     {
       "Route": "assets/css/variables.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\variables.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\css\\variables.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -855,7 +855,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -871,7 +871,7 @@
     },
     {
       "Route": "assets/images/students/7d5743fe-27b2-4ed8-9482-fcb564a86478_6873424dc3b14b5d237ddf33d9e45f22.9cf4p52wfr.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\7d5743fe-27b2-4ed8-9482-fcb564a86478_6873424dc3b14b5d237ddf33d9e45f22.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\7d5743fe-27b2-4ed8-9482-fcb564a86478_6873424dc3b14b5d237ddf33d9e45f22.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -892,7 +892,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:23:10 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -916,7 +916,7 @@
     },
     {
       "Route": "assets/images/students/7d5743fe-27b2-4ed8-9482-fcb564a86478_6873424dc3b14b5d237ddf33d9e45f22.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\7d5743fe-27b2-4ed8-9482-fcb564a86478_6873424dc3b14b5d237ddf33d9e45f22.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\7d5743fe-27b2-4ed8-9482-fcb564a86478_6873424dc3b14b5d237ddf33d9e45f22.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -937,7 +937,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:23:10 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -953,7 +953,7 @@
     },
     {
       "Route": "assets/images/students/94da81e4-90f3-409a-ae2e-80aa88ea1b82_23083696d4e1603f8477047b28ecac49.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\94da81e4-90f3-409a-ae2e-80aa88ea1b82_23083696d4e1603f8477047b28ecac49.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\94da81e4-90f3-409a-ae2e-80aa88ea1b82_23083696d4e1603f8477047b28ecac49.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -974,7 +974,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:21:25 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -990,7 +990,7 @@
     },
     {
       "Route": "assets/images/students/94da81e4-90f3-409a-ae2e-80aa88ea1b82_23083696d4e1603f8477047b28ecac49.tozpvp5oy4.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\94da81e4-90f3-409a-ae2e-80aa88ea1b82_23083696d4e1603f8477047b28ecac49.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\94da81e4-90f3-409a-ae2e-80aa88ea1b82_23083696d4e1603f8477047b28ecac49.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1011,7 +1011,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:21:25 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1035,7 +1035,7 @@
     },
     {
       "Route": "assets/images/students/9debf1cf-2506-40eb-a3ee-bccb523bba9b_198d5b70498c3aa8fe3392ea353fce76.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\9debf1cf-2506-40eb-a3ee-bccb523bba9b_198d5b70498c3aa8fe3392ea353fce76.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\9debf1cf-2506-40eb-a3ee-bccb523bba9b_198d5b70498c3aa8fe3392ea353fce76.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1056,7 +1056,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:09:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1072,7 +1072,7 @@
     },
     {
       "Route": "assets/images/students/9debf1cf-2506-40eb-a3ee-bccb523bba9b_198d5b70498c3aa8fe3392ea353fce76.qsx4qoyiw1.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\9debf1cf-2506-40eb-a3ee-bccb523bba9b_198d5b70498c3aa8fe3392ea353fce76.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\9debf1cf-2506-40eb-a3ee-bccb523bba9b_198d5b70498c3aa8fe3392ea353fce76.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1093,7 +1093,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:09:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1117,7 +1117,7 @@
     },
     {
       "Route": "assets/images/students/a29df87c-94be-4d90-af00-4c20254f5cc2_7ca6d208a33bbe32d358ae6c7c8d1162.8jr6k24pr8.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\a29df87c-94be-4d90-af00-4c20254f5cc2_7ca6d208a33bbe32d358ae6c7c8d1162.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\a29df87c-94be-4d90-af00-4c20254f5cc2_7ca6d208a33bbe32d358ae6c7c8d1162.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1138,7 +1138,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:07:23 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1162,7 +1162,7 @@
     },
     {
       "Route": "assets/images/students/a29df87c-94be-4d90-af00-4c20254f5cc2_7ca6d208a33bbe32d358ae6c7c8d1162.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\a29df87c-94be-4d90-af00-4c20254f5cc2_7ca6d208a33bbe32d358ae6c7c8d1162.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\a29df87c-94be-4d90-af00-4c20254f5cc2_7ca6d208a33bbe32d358ae6c7c8d1162.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1183,7 +1183,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:07:23 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1199,7 +1199,7 @@
     },
     {
       "Route": "assets/images/students/a88abfce-2d71-4f2b-905b-462c64194292_d8d87be0aba633245f6419a109c7b69f.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\a88abfce-2d71-4f2b-905b-462c64194292_d8d87be0aba633245f6419a109c7b69f.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\a88abfce-2d71-4f2b-905b-462c64194292_d8d87be0aba633245f6419a109c7b69f.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1220,7 +1220,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:22:44 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1236,7 +1236,7 @@
     },
     {
       "Route": "assets/images/students/a88abfce-2d71-4f2b-905b-462c64194292_d8d87be0aba633245f6419a109c7b69f.uhvcmq18iv.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\a88abfce-2d71-4f2b-905b-462c64194292_d8d87be0aba633245f6419a109c7b69f.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\a88abfce-2d71-4f2b-905b-462c64194292_d8d87be0aba633245f6419a109c7b69f.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1257,7 +1257,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:22:44 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1281,7 +1281,7 @@
     },
     {
       "Route": "assets/images/students/b1eadfa6-324f-43f2-94a8-24d52a0696c3_3a5fcaabe1f0b0ee16e3c7e98b20b687.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\b1eadfa6-324f-43f2-94a8-24d52a0696c3_3a5fcaabe1f0b0ee16e3c7e98b20b687.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\b1eadfa6-324f-43f2-94a8-24d52a0696c3_3a5fcaabe1f0b0ee16e3c7e98b20b687.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1302,7 +1302,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:20:49 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1318,7 +1318,7 @@
     },
     {
       "Route": "assets/images/students/b1eadfa6-324f-43f2-94a8-24d52a0696c3_3a5fcaabe1f0b0ee16e3c7e98b20b687.z1gjykwqwe.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\b1eadfa6-324f-43f2-94a8-24d52a0696c3_3a5fcaabe1f0b0ee16e3c7e98b20b687.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\b1eadfa6-324f-43f2-94a8-24d52a0696c3_3a5fcaabe1f0b0ee16e3c7e98b20b687.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1339,7 +1339,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:20:49 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1363,7 +1363,7 @@
     },
     {
       "Route": "assets/images/students/c00a177e-e82b-41e9-87f1-7d9596537ceb_bb434534242da6787df0f6e084b7b9a8.373ebq6ynl.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\c00a177e-e82b-41e9-87f1-7d9596537ceb_bb434534242da6787df0f6e084b7b9a8.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\c00a177e-e82b-41e9-87f1-7d9596537ceb_bb434534242da6787df0f6e084b7b9a8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1384,7 +1384,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:07:49 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1408,7 +1408,7 @@
     },
     {
       "Route": "assets/images/students/c00a177e-e82b-41e9-87f1-7d9596537ceb_bb434534242da6787df0f6e084b7b9a8.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\c00a177e-e82b-41e9-87f1-7d9596537ceb_bb434534242da6787df0f6e084b7b9a8.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\c00a177e-e82b-41e9-87f1-7d9596537ceb_bb434534242da6787df0f6e084b7b9a8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1429,7 +1429,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:07:49 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1445,7 +1445,7 @@
     },
     {
       "Route": "assets/images/students/cfa91850-a889-4476-8614-c51a00f1b0ca_49384cd7f447f3687ad3a4f8eb1cbbf3.bsyvyo577l.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\cfa91850-a889-4476-8614-c51a00f1b0ca_49384cd7f447f3687ad3a4f8eb1cbbf3.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\cfa91850-a889-4476-8614-c51a00f1b0ca_49384cd7f447f3687ad3a4f8eb1cbbf3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1466,7 +1466,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:22:01 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1490,7 +1490,7 @@
     },
     {
       "Route": "assets/images/students/cfa91850-a889-4476-8614-c51a00f1b0ca_49384cd7f447f3687ad3a4f8eb1cbbf3.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\cfa91850-a889-4476-8614-c51a00f1b0ca_49384cd7f447f3687ad3a4f8eb1cbbf3.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\cfa91850-a889-4476-8614-c51a00f1b0ca_49384cd7f447f3687ad3a4f8eb1cbbf3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1511,7 +1511,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:22:01 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1527,7 +1527,7 @@
     },
     {
       "Route": "assets/images/students/d4bad6b0-8f3c-4a6a-8835-312f88e074c8_473ef8f2c793ceb738558b1d4fe9b43b.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\d4bad6b0-8f3c-4a6a-8835-312f88e074c8_473ef8f2c793ceb738558b1d4fe9b43b.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\d4bad6b0-8f3c-4a6a-8835-312f88e074c8_473ef8f2c793ceb738558b1d4fe9b43b.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1548,7 +1548,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:08:37 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1564,7 +1564,7 @@
     },
     {
       "Route": "assets/images/students/d4bad6b0-8f3c-4a6a-8835-312f88e074c8_473ef8f2c793ceb738558b1d4fe9b43b.k458y7ml9u.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\d4bad6b0-8f3c-4a6a-8835-312f88e074c8_473ef8f2c793ceb738558b1d4fe9b43b.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\d4bad6b0-8f3c-4a6a-8835-312f88e074c8_473ef8f2c793ceb738558b1d4fe9b43b.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1585,7 +1585,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:08:37 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1609,7 +1609,7 @@
     },
     {
       "Route": "assets/images/students/f442cf57-60fa-49b6-ba73-8d1809efe4cf_4824cc8044308ec23ed6e621dfd66627.cc5r19kfu4.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\f442cf57-60fa-49b6-ba73-8d1809efe4cf_4824cc8044308ec23ed6e621dfd66627.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\f442cf57-60fa-49b6-ba73-8d1809efe4cf_4824cc8044308ec23ed6e621dfd66627.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1630,7 +1630,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:06:26 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1654,7 +1654,7 @@
     },
     {
       "Route": "assets/images/students/f442cf57-60fa-49b6-ba73-8d1809efe4cf_4824cc8044308ec23ed6e621dfd66627.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\f442cf57-60fa-49b6-ba73-8d1809efe4cf_4824cc8044308ec23ed6e621dfd66627.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\students\\f442cf57-60fa-49b6-ba73-8d1809efe4cf_4824cc8044308ec23ed6e621dfd66627.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1675,7 +1675,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 21:06:26 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1691,7 +1691,7 @@
     },
     {
       "Route": "assets/images/teachers/9436e993-c5e9-4bfc-8c3f-63d85f37584e_d19bc84e1186706540fab2bf6b27c019.2k7bll3h3s.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\9436e993-c5e9-4bfc-8c3f-63d85f37584e_d19bc84e1186706540fab2bf6b27c019.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\9436e993-c5e9-4bfc-8c3f-63d85f37584e_d19bc84e1186706540fab2bf6b27c019.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1712,7 +1712,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:59:39 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1736,7 +1736,7 @@
     },
     {
       "Route": "assets/images/teachers/9436e993-c5e9-4bfc-8c3f-63d85f37584e_d19bc84e1186706540fab2bf6b27c019.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\9436e993-c5e9-4bfc-8c3f-63d85f37584e_d19bc84e1186706540fab2bf6b27c019.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\9436e993-c5e9-4bfc-8c3f-63d85f37584e_d19bc84e1186706540fab2bf6b27c019.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1757,7 +1757,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:59:39 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1773,7 +1773,7 @@
     },
     {
       "Route": "assets/images/teachers/a117fe05-48e1-4a8d-9845-d0d805c1c68f_132bd2cac2bd085edbe74735d7ef71e1.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\a117fe05-48e1-4a8d-9845-d0d805c1c68f_132bd2cac2bd085edbe74735d7ef71e1.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\a117fe05-48e1-4a8d-9845-d0d805c1c68f_132bd2cac2bd085edbe74735d7ef71e1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1794,7 +1794,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:57:31 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1810,7 +1810,7 @@
     },
     {
       "Route": "assets/images/teachers/a117fe05-48e1-4a8d-9845-d0d805c1c68f_132bd2cac2bd085edbe74735d7ef71e1.o5tm38lefw.jpg",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\a117fe05-48e1-4a8d-9845-d0d805c1c68f_132bd2cac2bd085edbe74735d7ef71e1.jpg",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\images\\teachers\\a117fe05-48e1-4a8d-9845-d0d805c1c68f_132bd2cac2bd085edbe74735d7ef71e1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1831,7 +1831,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:57:31 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1855,7 +1855,7 @@
     },
     {
       "Route": "assets/js/student-create.js",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\student-create.js",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\student-create.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1876,7 +1876,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1892,7 +1892,7 @@
     },
     {
       "Route": "assets/js/student-create.py3jlwinm5.js",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\student-create.js",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\student-create.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1913,7 +1913,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1937,7 +1937,7 @@
     },
     {
       "Route": "assets/js/table.js",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\table.js",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\table.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1958,7 +1958,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1974,7 +1974,7 @@
     },
     {
       "Route": "assets/js/table.luf89rw0pl.js",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\table.js",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\wwwroot\\assets\\js\\table.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1995,7 +1995,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2019,7 +2019,7 @@
     },
     {
       "Route": "WebApp.bundle.scp.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2040,7 +2040,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2056,7 +2056,7 @@
     },
     {
       "Route": "WebApp.kgyr9w213v.bundle.scp.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2077,7 +2077,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2101,7 +2101,7 @@
     },
     {
       "Route": "WebApp.kgyr9w213v.styles.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApp.styles.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2122,7 +2122,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2146,7 +2146,7 @@
     },
     {
       "Route": "WebApp.styles.css",
-      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApp.styles.css",
+      "AssetFile": "C:\\Users\\G713RW\\OneDrive\\Desktop\\HomeWork\\Exam\\ExamApp\\src\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2167,7 +2167,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 20:43:20 GMT"
+          "Value": "Mon, 13 Jan 2025 09:44:09 GMT"
         },
         {
           "Name": "Cache-Control",

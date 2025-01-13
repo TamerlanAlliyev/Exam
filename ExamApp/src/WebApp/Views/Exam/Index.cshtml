@@ -39,7 +39,7 @@
 						<td>@(exam.Status ? "Was held" : "Was not held")</td>
 
 						<td class="actions">
-							<a asp-action="Detail" asp-route-id="@exam.Id" title="Exam Result">
+							<a asp-controller="ExamResult" asp-action="Detail" asp-route-id="@exam.Id" title="Exam Result">
 								<i style="color:green" class="fa-solid fa-file-circle-check"></i>
 							</a>
 							<a class="delete-button" asp-controller="ExamResult" asp-action="Index" asp-route-id="@exam.Id" title="Exam Delete">

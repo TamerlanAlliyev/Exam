@@ -131,9 +131,14 @@ namespace ExamApp.Infrastructure.Migrations
                     b.Property<decimal>("LessonAverage")
                         .HasColumnType("decimal(5,2)");
 
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("ExamId")
+                    b.HasIndex("ExamId");
+
+                    b.HasIndex("StudentId")
                         .IsUnique();
 
                     b.ToTable("ExamResult");
@@ -207,8 +212,6 @@ namespace ExamApp.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ExamResultId");
-
                     b.HasIndex("Number")
                         .IsUnique();
 
@@ -242,12 +245,20 @@ namespace ExamApp.Infrastructure.Migrations
             modelBuilder.Entity("ExamApp.Domain.Entities.ExamResult", b =>
                 {
                     b.HasOne("ExamApp.Domain.Entities.Exam", "Exam")
+                        .WithMany("ExamResult")
+                        .HasForeignKey("ExamId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ExamApp.Domain.Entities.Student", "Student")
                         .WithOne("ExamResult")
-                        .HasForeignKey("ExamApp.Domain.Entities.ExamResult", "ExamId")
+                        .HasForeignKey("ExamApp.Domain.Entities.ExamResult", "StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Exam");
+
+                    b.Navigation("Student");
                 });
 
             modelBuilder.Entity("ExamApp.Domain.Entities.Lesson", b =>
@@ -267,17 +278,11 @@ namespace ExamApp.Infrastructure.Migrations
 
             modelBuilder.Entity("ExamApp.Domain.Entities.Student", b =>
                 {
-                    b.HasOne("ExamApp.Domain.Entities.ExamResult", "ExamResult")
-                        .WithMany("Students")
-                        .HasForeignKey("ExamResultId");
-
                     b.HasOne("Domain.Entities.SchoolClass", "SchoolClass")
                         .WithMany("Students")
                         .HasForeignKey("SchoolClassId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("ExamResult");
 
                     b.Navigation("SchoolClass");
                 });
@@ -301,14 +306,14 @@ namespace ExamApp.Infrastructure.Migrations
                     b.Navigation("ExamResult");
                 });
 
-            modelBuilder.Entity("ExamApp.Domain.Entities.ExamResult", b =>
-                {
-                    b.Navigation("Students");
-                });
-
             modelBuilder.Entity("ExamApp.Domain.Entities.Lesson", b =>
                 {
                     b.Navigation("Exam");
+                });
+
+            modelBuilder.Entity("ExamApp.Domain.Entities.Student", b =>
+                {
+                    b.Navigation("ExamResult");
                 });
 #pragma warning restore 612, 618
         }

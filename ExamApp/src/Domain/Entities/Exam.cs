@@ -14,5 +14,5 @@ public class Exam:BaseEntity
     public decimal?  ClassAverage { get; set; }
     public int LessonId { get; set; }
     public Lesson Lesson { get; set; } = null!;
-    public ExamResult? ExamResult { get; set; }
+    public List<ExamResult>? ExamResult { get; set; }
 }
